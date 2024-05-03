@@ -1,6 +1,6 @@
-[10:43:49] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.10
-[10:43:49] [ForkJoinPool-1-worker-2/WARN]: Mod icommon-bundle uses the version bundle which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'bundle'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[10:43:49] [main/INFO]: Loading 66 mods:
+[17:55:10] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.10
+[17:55:10] [ForkJoinPool-1-worker-7/WARN]: Mod icommon-bundle uses the version bundle which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'bundle'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:55:10] [main/INFO]: Loading 72 mods:
 	- audioplayer 1.20.4-1.8.9
 	   \-- admiral 0.4.4+1.20.4
 	- carpet 1.4.128+v231205
@@ -65,14 +65,20 @@
 	- fabricexporter 1.0.11
 	- fabricloader 0.15.10
 	   \-- mixinextras 0.3.5
+	- forgeconfigapiport 20.4.3
+	   |-- com_electronwill_night-config_core 3.6.6
+	   \-- com_electronwill_night-config_toml 3.6.6
 	- icommon-bundle bundle
 	   \-- icommon 1.20.2
 	- java 17
 	- lithium 0.12.1
+	- luckperms 5.4.113
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
 	- minecraft 1.20.4
 	- mr_no_trialchambers 1.2
 	- nochatreports 1.20.4-v2.6.0
-	- sdlink 2.2.4
+	- openpartiesandclaims 0.22.0
+	- sdlink 3.0.1
 	- shulkerplus 1.0.7
 	- spark 1.10.58
 	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
@@ -83,381 +89,661 @@
 	- viewdistancefix 1.20.4-1.0.1
 	- voicechat 1.20.4-2.5.13
 	   \-- fabric-key-binding-api-v1 1.0.39+f4b7e42432
-[10:43:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/platformplayz/servers/Port%2025566%20servers/Cattieah's%20Servers/Season%201/Cattieah%20Server%201.20.4%20No%20Cardboard/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[10:43:49] [main/INFO]: Compatibility level set to JAVA_17
-[10:43:50] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 0 override(s) found
-[10:43:50] [main/WARN]: Reference map 'shulkerplus-fabric-refmap.json' for shulkerplus-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[10:43:50] [main/INFO]: =======================================================
-[10:43:50] [main/INFO]:  iCommon - Isaiah's common library for mods.
-[10:43:50] [main/INFO]:  Copyright (c) 2018-2023 Isaiah. Running on MC 1.20.4
-[10:43:50] [main/INFO]: =======================================================
-[10:43:50] [main/INFO]: Applying mixin: MixinMinecraftServer...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinMinecraftServer...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinEntity...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinPlayer...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinBlockEntity...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinChestBlockEntity...
-[10:43:50] [main/INFO]: Lithium detected
-[10:43:50] [main/INFO]: Lithium detected
-[10:43:50] [main/INFO]: Lithium detected
-[10:43:50] [main/INFO]: Lithium detected
-[10:43:50] [main/INFO]: Lithium detected
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinScreenHandler...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinChunkGenerator...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinPersistentStateManager...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinPlayerManager...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinHeighttmap...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinLeavesBlock...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinCat...
-[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinWorld_18...
-[10:43:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[10:43:51] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
-[10:43:56] [main/INFO]: iCommon Mod initialized.
-[10:43:56] [main/INFO]: Compatibility version 1
-[10:43:56] [main/INFO]: [voicechat] Compatibility version 18
-[10:43:56] [main/INFO]: [voicechat] Loading plugins
-[10:43:56] [main/INFO]: [voicechat] Loaded 2 plugin(s)
-[10:43:56] [main/INFO]: [voicechat] Initializing plugins
-[10:43:56] [main/INFO]: [voicechat] Initialized 2 plugin(s)
-[10:43:56] [main/INFO]: [voicechat] Registering events for 'audioplayer'
-[10:43:56] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
-[10:43:56] [main/INFO]: Registered simple-discord-bot.toml successfully!
-[10:43:56] [main/INFO]: Using Webhook for Chat Messages
-[10:43:56] [main/INFO]: Using Webhook for Event Messages
-[10:43:56] [main/INFO]: Using Webhook for Console Messages
-[10:43:57] [main/INFO]: Login Successful!
-[10:43:57] [main/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[10:43:57] [main/WARN]: resource-pack-id missing, using default of 3f13623e-72f9-33c4-ba1f-1a002970f5a9
-[10:43:57] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:43:57] [JDA MainWS-WriteThread/INFO]: Connected to WebSocket
-[10:43:58] [JDA MainWS-ReadThread/INFO]: Finished Loading!
-[10:43:58] [pool-2-thread-7/INFO]: Successfully connected to discord
-[10:43:58] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
-[10:43:59] [main/WARN]: Found loot table element validation problem in {loot_tables:minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/bat
-[10:43:59] [main/WARN]: Found loot table element validation problem in {loot_tables:minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[10:43:59] [main/INFO]: Loaded 7 recipes
-[10:43:59] [main/ERROR]: Couldn't load tag minecraft:load as it is missing following references: hard_on_start:init (from file/hard-on-start-1.0.zip), hard_on_start:schedule (from file/hard-on-start-1.0.zip)
-[10:43:59] [main/INFO]: Loaded 1668 advancements
-[10:44:00] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.436 ms
-[10:44:00] [Server thread/INFO]: Starting background profiler...
-[10:44:00] [Server thread/INFO]: Setting IServer instance..
-[10:44:00] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[10:44:00] [Server thread/INFO]: Loading properties
-[10:44:00] [Server thread/INFO]: Default game type: SURVIVAL
-[10:44:00] [Server thread/INFO]: Generating keypair
-[10:44:00] [Server thread/INFO]: Starting Minecraft server on 10.0.0.66:25566
-[10:44:00] [Server thread/INFO]: Using epoll channel type
-[10:44:00] [Server thread/INFO]: Preparing level "world"
-[10:44:00] [Server thread/INFO]: Setting IWorld for world "world"
-[10:44:01] [Server thread/INFO]: Setting IWorld for world "world_nether"
-[10:44:02] [Server thread/INFO]: Setting IWorld for world "world_the_end"
-[10:44:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:44:02] [pool-2-thread-8/INFO]: Discord Invite Link for Bot: https://discord.com/api/oauth2/authorize?client_id=818551968519290931&permissions=3154463760&scope=bot%20applications.commands
-[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:44:04] [Worker-Main-6/INFO]: Preparing spawn area: 46%
-[10:44:05] [Server thread/INFO]: Time elapsed: 2792 ms
-[10:44:05] [Server thread/INFO]: Done (4.295s)! For help, type "help"
-[10:44:05] [Server thread/INFO]: Whitelisting enabled and ready
-[10:44:05] [Server thread/INFO]: Prometheus exporter server is now listening on port 25585
-[10:44:05] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:24454
-[10:44:09] [User Authenticator #1/INFO]: UUID of player PlatFormPlayZ is 9dc294bf-e029-49be-adda-d00405ae1e54
-[10:44:09] [Server thread/INFO]: PlatFormPlayZ[/73.72.168.244:52365] logged in with entity id 237 at (12.732479579092294, 64.0, 118.61026798181159)
-[10:44:09] [Server thread/INFO]: Using Fabric Permissions API
-[10:44:09] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[10:44:09] [Server thread/INFO]: PlatFormPlayZ joined the game
-[10:44:09] [Server thread/INFO]: [voicechat] Received secret request of PlatFormPlayZ (18)
-[10:44:09] [Server thread/INFO]: [voicechat] Sent secret to PlatFormPlayZ
-[10:44:09] [Server thread/INFO]: Player PlatFormPlayZ joined with a matching carpet client
-[10:44:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 9dc294bf-e029-49be-adda-d00405ae1e54
-[10:44:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 9dc294bf-e029-49be-adda-d00405ae1e54
-[10:44:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player PlatFormPlayZ (9dc294bf-e029-49be-adda-d00405ae1e54) successfully connected to voice chat
-[10:44:13] [Server thread/ERROR]: ##################################
-[10:44:13] [Server thread/ERROR]: Failed to notify event listener!
-[10:44:13] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterServerChatEvent
-[10:44:13] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
-[10:44:13] [Server thread/ERROR]: Listener Method Name In Parent Class: onServerChatEvent
-[10:44:13] [Server thread/ERROR]: ##################################
-[10:44:13] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.handler$bhe000$craterlib$injectChatEvent(class_3244.java:5417)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44155(class_3244.java)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45064(class_3244.java:1267)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_7619.method_44903(class_7619.java:30)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[10:44:13] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	... 21 more
-[10:44:13] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:166)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:155)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	... 26 more
-[10:44:13] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-[10:44:13] [Server thread/INFO]: [STDERR]: 	... 31 more
-[10:44:13] [Server thread/INFO]: <PlatFormPlayZ> W
-[10:44:18] [Server thread/ERROR]: ##################################
-[10:44:18] [Server thread/ERROR]: Failed to notify event listener!
-[10:44:18] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterServerChatEvent
-[10:44:18] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
-[10:44:18] [Server thread/ERROR]: Listener Method Name In Parent Class: onServerChatEvent
-[10:44:18] [Server thread/ERROR]: ##################################
-[10:44:18] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.handler$bhe000$craterlib$injectChatEvent(class_3244.java:5417)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44155(class_3244.java)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45064(class_3244.java:1267)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_7619.method_44903(class_7619.java:30)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[10:44:18] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	... 21 more
-[10:44:18] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:166)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:155)
-[10:44:18] [Server thread/INFO]: [STDERR]: 	... 26 more
-[10:44:18] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
-[10:44:18] [Server thread/INFO]: [STDERR]: 	... 31 more
-[10:44:18] [Server thread/INFO]: <PlatFormPlayZ> chat fucking work
-[10:44:22] [pool-2-thread-3/INFO]: §e[Discord]§r Lord Plat: gd
-[10:45:01] [Server thread/ERROR]: ##################################
-[10:45:01] [Server thread/ERROR]: Failed to notify event listener!
-[10:45:01] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterServerChatEvent
-[10:45:01] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
-[10:45:01] [Server thread/ERROR]: Listener Method Name In Parent Class: onServerChatEvent
-[10:45:01] [Server thread/ERROR]: ##################################
-[10:45:01] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.handler$bhe000$craterlib$injectChatEvent(class_3244.java:5417)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44155(class_3244.java)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45064(class_3244.java:1267)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_7619.method_44903(class_7619.java:30)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[10:45:01] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	... 21 more
-[10:45:01] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:166)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:155)
-[10:45:01] [Server thread/INFO]: [STDERR]: 	... 26 more
-[10:45:01] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
-[10:45:01] [Server thread/INFO]: [STDERR]: 	... 31 more
-[10:45:01] [Server thread/INFO]: <PlatFormPlayZ> test
-[10:45:12] [User Authenticator #2/INFO]: UUID of player AnonymousToast is 1d3847f7-05f3-43f7-8419-86057f3534e2
-[10:45:16] [Server thread/INFO]: AnonymousToast[/98.179.22.23:56724] logged in with entity id 366 at (17.5, 67.0, 103.5)
-[10:45:16] [Server thread/INFO]: AnonymousToast joined the game
-[10:45:44] [Server thread/ERROR]: ##################################
-[10:45:44] [Server thread/ERROR]: Failed to notify event listener!
-[10:45:44] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterCommandEvent
-[10:45:44] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
-[10:45:44] [Server thread/ERROR]: Listener Method Name In Parent Class: commandEvent
-[10:45:44] [Server thread/ERROR]: ##################################
-[10:45:44] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.handler$bha000$craterlib$injectCommandEvent(class_2170.java:1580)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.method_9249(class_2170.java:304)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45010(class_3244.java:1305)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44356(class_3244.java:1285)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5386(class_1255.java:67)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[10:45:44] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	... 21 more
-[10:45:44] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.commandEvent(ServerEvents.java:205)
-[10:45:44] [Server thread/INFO]: [STDERR]: 	... 26 more
-[10:45:44] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
-[10:45:44] [Server thread/INFO]: [STDERR]: 	... 30 more
-[10:45:48] [Server thread/ERROR]: ##################################
-[10:45:48] [Server thread/ERROR]: Failed to notify event listener!
-[10:45:48] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterCommandEvent
-[10:45:48] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
-[10:45:48] [Server thread/ERROR]: Listener Method Name In Parent Class: commandEvent
-[10:45:48] [Server thread/ERROR]: ##################################
-[10:45:48] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.handler$bha000$craterlib$injectCommandEvent(class_2170.java:1580)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.method_9249(class_2170.java:304)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45010(class_3244.java:1305)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44356(class_3244.java:1285)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5386(class_1255.java:67)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[10:45:48] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	... 21 more
-[10:45:48] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.commandEvent(ServerEvents.java:205)
-[10:45:48] [Server thread/INFO]: [STDERR]: 	... 26 more
-[10:45:48] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
-[10:45:48] [Server thread/INFO]: [STDERR]: 	... 30 more
-[10:45:48] [Server thread/INFO]: [AnonymousToast: Set own game mode to Creative Mode]
-[10:46:37] [Server thread/INFO]: AnonymousToast lost connection: Disconnected
-[10:46:37] [Server thread/INFO]: AnonymousToast left the game
-[10:46:37] [Server thread/INFO]: [voicechat] Disconnecting client AnonymousToast
-[10:46:41] [User Authenticator #3/INFO]: UUID of player AnonymousToast is 1d3847f7-05f3-43f7-8419-86057f3534e2
-[10:46:44] [Server thread/INFO]: AnonymousToast[/98.179.22.23:56769] logged in with entity id 672 at (14.986808627589005, 60.0, 101.2028408373395)
-[10:46:44] [Server thread/INFO]: AnonymousToast joined the game
-[10:47:09] [Server thread/INFO]: PlatFormPlayZ lost connection: Disconnected
-[10:47:09] [Server thread/INFO]: PlatFormPlayZ left the game
-[10:47:09] [Server thread/INFO]: [voicechat] Disconnecting client PlatFormPlayZ
-[10:48:46] [Server thread/ERROR]: ##################################
-[10:48:46] [Server thread/ERROR]: Failed to notify event listener!
-[10:48:46] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterCommandEvent
-[10:48:46] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
-[10:48:46] [Server thread/ERROR]: Listener Method Name In Parent Class: commandEvent
-[10:48:46] [Server thread/ERROR]: ##################################
-[10:48:46] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.handler$bha000$craterlib$injectCommandEvent(class_2170.java:1580)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.method_9249(class_2170.java:304)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.method_44252(class_2170.java:298)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3176.method_13941(class_3176.java:299)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3176.method_3813(class_3176.java:284)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:845)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:683)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[10:48:46] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	... 11 more
-[10:48:46] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.commandEvent(ServerEvents.java:205)
-[10:48:46] [Server thread/INFO]: [STDERR]: 	... 16 more
-[10:48:46] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
-[10:48:46] [Server thread/INFO]: [STDERR]: 	... 20 more
-[10:48:46] [Server thread/INFO]: Stopping the server
-[10:48:46] [Server thread/INFO]: Stopping server
-[10:48:46] [Server thread/INFO]: Saving players
-[10:48:47] [Server thread/INFO]: AnonymousToast lost connection: Server closed
-[10:48:47] [Server thread/INFO]: AnonymousToast left the game
-[10:48:47] [Server thread/INFO]: Saving worlds
-[10:48:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+	- xaerominimap 24.1.1
+[17:55:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/platformplayz/servers/Port%2025566%20servers/Cattieah's%20Servers/Season%201/Cattieah%20Server%201.20.4%20No%20Cardboard/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:55:10] [main/INFO]: Compatibility level set to JAVA_17
+[17:55:11] [main/WARN]: Reference map 'ForgeConfigAPIPort-Common-refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:55:11] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 0 override(s) found
+[17:55:11] [main/WARN]: Reference map 'shulkerplus-fabric-refmap.json' for shulkerplus-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:55:11] [main/INFO]: =======================================================
+[17:55:11] [main/INFO]:  iCommon - Isaiah's common library for mods.
+[17:55:11] [main/INFO]:  Copyright (c) 2018-2023 Isaiah. Running on MC 1.20.4
+[17:55:11] [main/INFO]: =======================================================
+[17:55:11] [main/INFO]: Applying mixin: MixinMinecraftServer...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinMinecraftServer...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinEntity...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinPlayer...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinBlockEntity...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinChestBlockEntity...
+[17:55:11] [main/INFO]: Lithium detected
+[17:55:11] [main/INFO]: Lithium detected
+[17:55:11] [main/INFO]: Lithium detected
+[17:55:11] [main/INFO]: Lithium detected
+[17:55:11] [main/INFO]: Lithium detected
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinScreenHandler...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinChunkGenerator...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinPersistentStateManager...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinPlayerManager...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinHeighttmap...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinLeavesBlock...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinCat...
+[17:55:11] [main/INFO]: Applying mixin: R1_20.MixinWorld_18...
+[17:55:11] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[17:55:13] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
+[17:55:17] [main/INFO]: iCommon Mod initialized.
+[17:55:17] [main/INFO]: Compatibility version 1
+[17:55:17] [main/INFO]: [voicechat] Compatibility version 18
+[17:55:17] [main/INFO]: [voicechat] Loading plugins
+[17:55:17] [main/INFO]: [voicechat] Loaded 2 plugin(s)
+[17:55:17] [main/INFO]: [voicechat] Initializing plugins
+[17:55:17] [main/INFO]: [voicechat] Initialized 2 plugin(s)
+[17:55:17] [main/INFO]: [voicechat] Registering events for 'audioplayer'
+[17:55:17] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
+[17:55:19] [main/INFO]: Loading Open Parties and Claims!
+[17:55:19] [main/INFO]: Registered simple-discord-link.toml successfully!
+[17:55:19] [main/INFO]: Encryption is not enabled for JSON DB
+[17:55:20] [main/INFO]: Using Webhook for Chat Messages
+[17:55:20] [main/INFO]: Using Webhook for Event Messages
+[17:55:20] [main/INFO]: Using Webhook for Console Messages
+[17:55:20] [main/INFO]: Login Successful!
+[17:55:20] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[17:55:20] [main/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[17:55:20] [main/WARN]: resource-pack-id missing, using default of 3f13623e-72f9-33c4-ba1f-1a002970f5a9
+[17:55:20] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:55:20] [JDA MainWS-ReadThread/INFO]: Connected to WebSocket
+[17:55:20] [main/INFO]: Found new data pack openpartiesandclaims, loading it automatically
+[17:55:21] [JDA MainWS-ReadThread/INFO]: Finished Loading!
+[17:55:21] [pool-4-thread-1/INFO]: Successfully connected to discord
+[17:55:21] [pool-4-thread-1/INFO]: Discord Invite Link for Bot: https://discord.com/api/oauth2/authorize?client_id=1235851826838900777&permissions=2953276436&scope=bot%20applications.commands
+[17:55:21] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
+[17:55:22] [main/WARN]: Found loot table element validation problem in {loot_tables:minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/bat
+[17:55:22] [main/WARN]: Found loot table element validation problem in {loot_tables:minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[17:55:22] [main/INFO]: Loaded 7 recipes
+[17:55:22] [main/ERROR]: Couldn't load tag minecraft:load as it is missing following references: hard_on_start:init (from file/hard-on-start-1.0.zip), hard_on_start:schedule (from file/hard-on-start-1.0.zip)
+[17:55:22] [main/INFO]: Loaded 1668 advancements
+[17:55:23] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.301 ms
+[17:55:23] [Server thread/WARN]: Configuration file ./config/openpartiesandclaims-server.toml is not correct. Correcting
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.defaultLanguage was corrected from null to its default, en_us. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.autosaveInterval was corrected from null to its default, 10. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.playerSubConfigLimit was corrected from null to its default, 64. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.permissionSystem was corrected from null to its default, prometheus. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.primaryPartySystem was corrected from null to its default, argonauts_guilds. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.parties was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.parties.enabled was corrected from null to its default, true. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.parties.maxPartyMembers was corrected from null to its default, 64. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.parties.maxPartyAllies was corrected from null to its default, 64. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.parties.maxPartyInvites was corrected from null to its default, 16. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.parties.partyExpirationTime was corrected from null to its default, 720. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.parties.partyExpirationCheckInterval was corrected from null to its default, 360. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.enabled was corrected from null to its default, true. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.playerClaimsExpirationTime was corrected from null to its default, 8760. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.playerClaimsExpirationCheckInterval was corrected from null to its default, 360. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.playerClaimsConvertExpiredClaims was corrected from null to its default, true. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.maxPlayerClaims was corrected from null to its default, 500. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.maxPlayerClaimForceloads was corrected from null to its default, 10. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.maxPlayerClaimsPermission was corrected from null to its default, xaero.pac_max_claims. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.maxPlayerClaimForceloadsPermission was corrected from null to its default, xaero.pac_max_forceloads. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.serverClaimPermission was corrected from null to its default, xaero.pac_server_claims. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.adminModePermission was corrected from null to its default, xaero.pac_admin_mode. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.maxClaimDistance was corrected from null to its default, 5. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.claimableDimensionsListType was corrected from null to its default, ALL_BUT. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.claimableDimensionsList was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.allowExistingClaimsInUnclaimableDimensions was corrected from null to its default, true. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.allowExistingForceloadsInUnclaimableDimensions was corrected from null to its default, false. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.claimsSynchronization was corrected from null to its default, ALL. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.friendlyChunkProtectedEntityListType was corrected from null to its default, ALL_BUT. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.friendlyChunkProtectedEntityList was corrected from null to its default, [minecraft:boat]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.hostileChunkProtectedEntityListType was corrected from null to its default, ONLY. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.hostileChunkProtectedEntityList was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.blockProtectionExceptionList was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityProtectionExceptionList was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityClaimBarrierList was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.forcedBlockProtectionExceptionList was corrected from null to its default, [minecraft:crafting_table]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.blockProtectionOptionalExceptionGroups was corrected from null to its default, [Controls{minecraft:lever, #minecraft:buttons}, Doors{#minecraft:doors, #minecraft:fence_gates, #forge:fence_gates, #minecraft:trapdoors}, Chests{minecraft:chest, minecraft:trapped_chest, #forge:chests/wooden}, Barrels{minecraft:barrel, #forge:barrels}, Ender_Chests{minecraft:ender_chest, #forge:chests/ender}, Shulker_Boxes{#minecraft:shulker_boxes}, Furnaces{minecraft:furnace, minecraft:blast_furnace, minecraft:smoker}, Hoppers{minecraft:hopper}, Dispenser-like{minecraft:dispenser, minecraft:dropper}, Anvils{#minecraft:anvil}, Beds{#minecraft:beds}, Beacons{minecraft:beacon}, Enchanting_Tables{minecraft:enchanting_table}, break$Crops{#minecraft:crops}]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.forcedEntityProtectionExceptionList was corrected from null to its default, [minecraft:minecart]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityProtectionOptionalExceptionGroups was corrected from null to its default, [Traders{minecraft:villager, minecraft:wandering_trader}, hand$Item_Frames{minecraft:item_frame}, break$Livestock{minecraft:cow, minecraft:mooshroom, minecraft:sheep, minecraft:chicken, minecraft:pig, minecraft:rabbit, minecraft:goat}, Armor_Stands{minecraft:armor_stand}]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.forcedEntityClaimBarrierList was corrected from null to its default, [minecraft:falling_block, supplementaries:slingshot_projectile]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityClaimBarrierOptionalGroups was corrected from null to its default, [Players{minecraft:player}, Ender_Pearls{minecraft:ender_pearl}]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entitiesAllowedToGrief was corrected from null to its default, [minecraft:sheep]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entitiesAllowedToGriefEntities was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entitiesAllowedToGriefDroppedItems was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.nonBlockGriefingMobs was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityGriefingMobs was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.droppedItemGriefingMobs was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.blockAccessEntityGroups was corrected from null to its default, [Villagers{minecraft:villager}]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityAccessEntityGroups was corrected from null to its default, [Zombies{minecraft:zombie, minecraft:zombie_villager, minecraft:husk, minecraft:drowned}]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.droppedItemAccessEntityGroups was corrected from null to its default, [Villagers{minecraft:villager}, Piglins{minecraft:piglin}, Foxes{minecraft:fox}]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.staticFakePlayers was corrected from null to its default, [[IntegratedTunnels]]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.staticFakePlayerClassExceptions was corrected from null to its default, [dan200.computercraft.shared.turtle.core.TurtlePlayer]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.additionalBannedItemsList was corrected from null to its default, [supplementaries:slingshot]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.itemUseProtectionExceptionList was corrected from null to its default, [minecraft:firework_rocket]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.itemUseProtectionOptionalExceptionGroups was corrected from null to its default, [Books{minecraft:written_book, minecraft:writable_book}]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.completelyDisabledItemInteractions was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.completelyDisabledBlockInteractions was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.completelyDisabledEntityInteractions was corrected from null to its default, []. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.completelyDisableFrostWalking was corrected from null to its default, false. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.reducedBoatEntityCollisions was corrected from null to its default, true. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.playerConfigurablePlayerConfigOptions was corrected from null to its default, [claims.protectClaimedChunks, claims.forceload.enabled, claims.name, claims.color, claims.protection.fromParty, claims.protection.fromAllyParties, claims.protection.buttonsFromProjectiles, claims.protection.targetsFromProjectiles, claims.protection.platesFromPlayers, claims.protection.platesFromMobs, claims.protection.platesFromOther, claims.protection.tripwireFromPlayers, claims.protection.tripwireFromMobs, claims.protection.tripwireFromOther, claims.protection.cropTrample, claims.protection.playerLightning, claims.protection.fromFrostWalking, claims.protection.entitiesFromPlayers, claims.protection.entitiesFromMobs, claims.protection.entitiesFromOther, claims.protection.entitiesRedirect, claims.protection.entitiesFromExplosions, claims.protection.entitiesFromFire, claims.protection.netherPortalsPlayers, claims.protection.netherPortalsMobs, claims.protection.netherPortalsOther, claims.protection.fluidBarrier, claims.protection.dispenserBarrier, claims.protection.pistonBarrier, claims.protection.itemTossPlayers, claims.protection.itemTossMobs, claims.protection.itemTossOther, claims.protection.itemTossRedirect, claims.protection.mobLoot, claims.protection.playerDeathLoot, claims.protection.itemPickupPlayers, claims.protection.itemPickupMobs, claims.protection.itemPickupRedirect, claims.protection.xpPickup, claims.protection.raids, claims.protection.naturalSpawnHostile, claims.protection.naturalSpawnFriendly, claims.protection.spawnersHostile, claims.protection.spawnersFriendly, claims.protection.projectileHitHostileSpawn, claims.protection.projectileHitFriendlySpawn, parties.name, parties.shareLocationWithParty, parties.shareLocationWithMutualAllyParties, parties.receiveLocationsFromParty, parties.receiveLocationsFromMutualAllyParties, claims.protection.exceptionGroups.block.interact.Controls, claims.protection.exceptionGroups.block.interact.Doors, claims.protection.exceptionGroups.block.interact.Chests, claims.protection.exceptionGroups.block.interact.Barrels, claims.protection.exceptionGroups.block.interact.Ender_Chests, claims.protection.exceptionGroups.block.interact.Shulker_Boxes, claims.protection.exceptionGroups.block.interact.Furnaces, claims.protection.exceptionGroups.block.interact.Hoppers, claims.protection.exceptionGroups.block.interact.Dispenser-like, claims.protection.exceptionGroups.block.interact.Anvils, claims.protection.exceptionGroups.block.interact.Beds, claims.protection.exceptionGroups.block.interact.Beacons, claims.protection.exceptionGroups.block.interact.Enchanting_Tables, claims.protection.exceptionGroups.block.break.Crops, claims.protection.exceptionGroups.entity.interact.Traders, claims.protection.exceptionGroups.entity.handInteract.Item_Frames, claims.protection.exceptionGroups.entity.interact.Armor_Stands, claims.protection.exceptionGroups.entity.break.Livestock, claims.protection.exceptionGroups.entity.blockAccess.Villagers, claims.protection.exceptionGroups.entity.entityAccess.Zombies, claims.protection.exceptionGroups.entity.droppedItemAccess.Villagers, claims.protection.exceptionGroups.entity.droppedItemAccess.Piglins, claims.protection.exceptionGroups.entity.droppedItemAccess.Foxes, claims.protection.exceptionGroups.item.interact.Books, claims.protection.exceptionGroups.entity.barrier.Ender_Pearls, /*remove comment to enable*/claims.protection.exceptionGroups.entity.barrier.Players]. 
+[17:55:23] [Server thread/WARN]: Incorrect key serverConfig.opConfigurablePlayerConfigOptions was corrected from null to its default, [claims.bonusChunkClaims, claims.bonusChunkForceloads]. 
+[17:55:23] [Server thread/INFO]: Starting background profiler...
+[17:55:23] [Server thread/INFO]:         __    
+[17:55:23] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.113
+[17:55:23] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.97.0+1.20.4
+[17:55:23] [Server thread/INFO]: 
+[17:55:23] [Server thread/INFO]: Loading configuration...
+[17:55:24] [Server thread/INFO]: Loading storage provider... [H2]
+[17:55:24] [Server thread/INFO]: Loading internal permission managers...
+[17:55:24] [Server thread/INFO]: Performing initial data load...
+[17:55:24] [Server thread/INFO]: Successfully enabled. (took 744ms)
+[17:55:24] [Server thread/INFO]: Setting IServer instance..
+[17:55:24] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[17:55:24] [Server thread/INFO]: Loading properties
+[17:55:24] [Server thread/INFO]: Default game type: SURVIVAL
+[17:55:24] [Server thread/INFO]: Generating keypair
+[17:55:24] [Server thread/INFO]: Starting Minecraft server on 10.0.0.66:25566
+[17:55:24] [Server thread/INFO]: Using epoll channel type
+[17:55:24] [Server thread/INFO]: Preparing level "world"
+[17:55:24] [Server thread/INFO]: Initializing Open Parties and Claims for the server...
+[17:55:24] [Server thread/INFO]: Loading server info!
+[17:55:24] [Server thread/INFO]: Loading player configs...
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.usedSub was corrected from null to its default, main. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.usedServerSub was corrected from null to its default, main. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.name was corrected from null to its default, . 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.color was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protectClaimedChunks was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.bonusChunkClaims was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.bonusChunkForceloads was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromParty was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromAllyParties was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromExplosions was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromFireSpread was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromFrostWalking was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.cropTrample was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fluidBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.pistonBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.buttonsFromProjectiles was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.targetsFromProjectiles was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromExplosions was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromFire was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.raids was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromPlayers was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromMobs was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromOther was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playerLightning was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.chorusFruitTeleport was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemUse was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.neighborChunksItemUse was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.dispenserBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossPlayers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossMobs was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossOther was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.mobLoot was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playerDeathLoot was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupPlayers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupMobs was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupRedirect was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.xpPickup was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.overrideMobGriefingRule was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.naturalSpawnHostile was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.naturalSpawnFriendly was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.spawnersHostile was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.spawnersFriendly was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.projectileHitHostileSpawn was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.projectileHitFriendlySpawn was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier.Players was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier.Ender_Pearls was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact.Traders was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact.Armor_Stands was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.handInteract was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.handInteract.Item_Frames was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.break was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.break.Livestock was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.blockAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.blockAccess.Villagers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.entityAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.entityAccess.Zombies was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Villagers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Piglins was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Foxes was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Controls was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Doors was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Chests was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Barrels was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Ender_Chests was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Shulker_Boxes was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Furnaces was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Hoppers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Dispenser-like was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Anvils was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Beds was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Beacons was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Enchanting_Tables was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.break was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.break.Crops was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item.interact.Books was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload.enabled was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload.offlineForceload was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.name was corrected from null to its default, . 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.shareLocationWithParty was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.shareLocationWithMutualAllyParties was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.receiveLocationsFromParty was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.receiveLocationsFromMutualAllyParties was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.usedSub was corrected from null to its default, main. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.usedServerSub was corrected from null to its default, main. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.name was corrected from null to its default, . 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.color was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protectClaimedChunks was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.bonusChunkClaims was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.bonusChunkForceloads was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromParty was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromAllyParties was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromExplosions was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromFireSpread was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromFrostWalking was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.cropTrample was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fluidBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.pistonBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.buttonsFromProjectiles was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.targetsFromProjectiles was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromExplosions was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromFire was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.raids was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromPlayers was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromMobs was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromOther was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playerLightning was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.chorusFruitTeleport was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemUse was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.neighborChunksItemUse was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.dispenserBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossPlayers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossMobs was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossOther was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.mobLoot was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playerDeathLoot was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupPlayers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupMobs was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupRedirect was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.xpPickup was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.overrideMobGriefingRule was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.naturalSpawnHostile was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.naturalSpawnFriendly was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.spawnersHostile was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.spawnersFriendly was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.projectileHitHostileSpawn was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.projectileHitFriendlySpawn was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier.Players was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier.Ender_Pearls was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact.Traders was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact.Armor_Stands was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.handInteract was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.handInteract.Item_Frames was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.break was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.break.Livestock was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.blockAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.blockAccess.Villagers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.entityAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.entityAccess.Zombies was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Villagers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Piglins was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Foxes was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Controls was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Doors was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Chests was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Barrels was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Ender_Chests was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Shulker_Boxes was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Furnaces was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Hoppers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Dispenser-like was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Anvils was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Beds was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Beacons was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Enchanting_Tables was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.break was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.break.Crops was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item.interact.Books was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload.enabled was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload.offlineForceload was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.name was corrected from null to its default, . 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.shareLocationWithParty was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.shareLocationWithMutualAllyParties was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.receiveLocationsFromParty was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.receiveLocationsFromMutualAllyParties was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.usedSub was corrected from null to its default, main. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.usedServerSub was corrected from null to its default, main. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.name was corrected from null to its default, . 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.color was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protectClaimedChunks was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.bonusChunkClaims was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.bonusChunkForceloads was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromParty was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromAllyParties was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromExplosions was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromFireSpread was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromFrostWalking was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.cropTrample was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fluidBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.pistonBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.buttonsFromProjectiles was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.targetsFromProjectiles was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromExplosions was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromFire was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.raids was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromPlayers was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromMobs was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromOther was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playerLightning was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.chorusFruitTeleport was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemUse was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.neighborChunksItemUse was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.dispenserBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossPlayers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossMobs was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossOther was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.mobLoot was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playerDeathLoot was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupPlayers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupMobs was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupRedirect was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.xpPickup was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.overrideMobGriefingRule was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.naturalSpawnHostile was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.naturalSpawnFriendly was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.spawnersHostile was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.spawnersFriendly was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.projectileHitHostileSpawn was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.projectileHitFriendlySpawn was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier.Players was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier.Ender_Pearls was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact.Traders was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact.Armor_Stands was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.handInteract was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.handInteract.Item_Frames was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.break was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.break.Livestock was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.blockAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.blockAccess.Villagers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.entityAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.entityAccess.Zombies was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Villagers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Piglins was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Foxes was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Controls was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Doors was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Chests was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Barrels was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Ender_Chests was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Shulker_Boxes was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Furnaces was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Hoppers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Dispenser-like was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Anvils was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Beds was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Beacons was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Enchanting_Tables was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.break was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.break.Crops was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item.interact.Books was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload.enabled was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload.offlineForceload was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.name was corrected from null to its default, . 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.shareLocationWithParty was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.shareLocationWithMutualAllyParties was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.receiveLocationsFromParty was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.receiveLocationsFromMutualAllyParties was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.usedSub was corrected from null to its default, main. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.usedServerSub was corrected from null to its default, main. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.name was corrected from null to its default, . 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.color was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protectClaimedChunks was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.bonusChunkClaims was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.bonusChunkForceloads was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromParty was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromAllyParties was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.blocksFromExplosions was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromFireSpread was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fromFrostWalking was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.cropTrample was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.fluidBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.pistonBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.buttonsFromProjectiles was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.targetsFromProjectiles was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.platesFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.tripwireFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromExplosions was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.entitiesFromFire was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.raids was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromPlayers was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromMobs was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersFromOther was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playersRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playerLightning was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.chorusFruitTeleport was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsPlayers was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsMobs was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.netherPortalsOther was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemUse was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.neighborChunksItemUse was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.dispenserBarrier was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossPlayers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossMobs was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossOther was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemTossRedirect was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.mobLoot was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.playerDeathLoot was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupPlayers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupMobs was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.itemPickupRedirect was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.xpPickup was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.overrideMobGriefingRule was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.naturalSpawnHostile was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.naturalSpawnFriendly was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.spawnersHostile was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.spawnersFriendly was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.projectileHitHostileSpawn was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.projectileHitFriendlySpawn was corrected from null to its default, 1. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier.Players was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.barrier.Ender_Pearls was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact.Traders was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.interact.Armor_Stands was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.handInteract was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.handInteract.Item_Frames was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.break was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.break.Livestock was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.blockAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.blockAccess.Villagers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.entityAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.entityAccess.Zombies was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Villagers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Piglins was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess.Foxes was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Controls was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Doors was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Chests was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Barrels was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Ender_Chests was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Shulker_Boxes was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Furnaces was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Hoppers was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Dispenser-like was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Anvils was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Beds was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Beacons was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.interact.Enchanting_Tables was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.break was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.block.break.Crops was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item.interact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.protection.exceptionGroups.item.interact.Books was corrected from null to its default, 0. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload.enabled was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.claims.forceload.offlineForceload was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.name was corrected from null to its default, . 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.shareLocationWithParty was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.shareLocationWithMutualAllyParties was corrected from null to its default, false. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.receiveLocationsFromParty was corrected from null to its default, true. 
+[17:55:24] [Server thread/WARN]: Incorrect key playerConfig.parties.receiveLocationsFromMutualAllyParties was corrected from null to its default, false. 
+[17:55:24] [Server thread/INFO]: Loaded player configs!
+[17:55:24] [Server thread/INFO]: Loading parties...
+[17:55:24] [Server thread/INFO]: Loaded parties!
+[17:55:24] [Server thread/INFO]: Fixing party inconsistencies...
+[17:55:25] [Server thread/INFO]: Registered party system for OPAC: default
+[17:55:25] [Server thread/INFO]: Registered permission system for OPAC: luck_perms
+[17:55:25] [Server thread/INFO]: Registered permission system for OPAC: permission_api
+[17:55:25] [Server thread/INFO]: Setting IWorld for world "world"
+[17:55:25] [Server thread/INFO]: Setting IWorld for world "world_the_end"
+[17:55:26] [Server thread/INFO]: Setting IWorld for world "world_nether"
+[17:55:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:55:28] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:55:28] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:55:28] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[17:55:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:55:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:55:29] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:55:29] [Worker-Main-7/INFO]: Preparing spawn area: 77%
+[17:55:29] [Server thread/INFO]: Time elapsed: 3101 ms
+[17:55:29] [Server thread/INFO]: Done (4.968s)! For help, type "help"
+[17:55:29] [Server thread/INFO]: Prometheus exporter server is now listening on port 25585
+[17:55:29] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:24454
+[17:55:29] [Server thread/INFO]: Loading claims...
+[17:55:29] [Server thread/INFO]: Loaded claims in 0ms
+[17:55:29] [Server thread/WARN]: The configured permission system "prometheus" isn't registered!
+[17:55:29] [Server thread/INFO]: Configured OPAC to use the following permission system: luck_perms
+[17:55:29] [Server thread/WARN]: The configured primary party system "argonauts_guilds" isn't registered!
+[17:55:29] [Server thread/INFO]: Configured OPAC to use the following party system as primary: default
+[17:55:29] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[17:55:38] [pool-4-thread-6/INFO]: §e[Discord]§r No idea: ?
+[17:55:45] [User Authenticator #1/INFO]: UUID of player PlatFormPlayZ is 9dc294bf-e029-49be-adda-d00405ae1e54
+[17:55:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@38219188[id=9dc294bf-e029-49be-adda-d00405ae1e54,name=PlatFormPlayZ,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTcxNDc3Njk0NDkxMiwKICAicHJvZmlsZUlkIiA6ICI5ZGMyOTRiZmUwMjk0OWJlYWRkYWQwMDQwNWFlMWU1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF0Rm9ybVBsYXlaIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc2NTM5MmQ5ODAyYmRhNjZkZjM0NDA0MTg2NTRlMmQyYTY3ZTJiZGU0ZWJiNGY1OGUxOTZlZjA4MzNiMjE2ODUiCiAgICB9CiAgfQp9, signature=Ey8MLAVeMdS6lZxii+lA/scb27D17QQ+vfYntnTOYB3JtNvEbYI/brjbNrIG4OZMqhCF131/dQKyy5rUx+QE+cTN1TMHet69G/Eg8LB1KVjpCUyodTem5WYIXCFJxPp3kdIO2xoEKIZ4F0ZW6cUwVY5o9jxC4wwIqITnLYqVWTITo6latuqFP0LOZMpdtUY7XUt53tq/tqkG0lAZtQ4ceG6GJp5f7dwt849tBYG0W9i4w1n0InwpE9HV6njvXuAMemqMWO8wVIR+UWnHbbLGg4Sq42OKoIrYFLlxWdNDMvVj0qLDLRfTZel0of/GI8hBJ34vzMSC/i0H8sBDCLroDaWs6JIWC6ZCDP7jECSrYXvIM4ZVF9iaj5DRIAlw0DWrE2HtzID/c8agHyxfM/YRq1H4aIyGTF7CnlBR3KOJUxzos/SIe2HmkYZf0RFKeGkvDawfipnXRjrsMPVIZaTXHDyfNRwEBcaSPc2yglh+ei5rNuKnOeYuLt2aBUHXgpwXKQ3l9MWKE3+6Enw0zh9aIrKxi2dU+3zyW1N+p7aEhQ0Vj0j/VNvDrIuZmQf8P5z7/e2UnrWu0JFiPkOZh7Uan61aJAuLgqlBO0TCh73D3Z8io+yTRad3+wa8jP3RFtcSKiqyCtxRFDDuxxUIr7WT2iYw4u0rn982Ek9GBckUUgY=]]}] lost connection: Disconnected
+[17:56:29] [Server thread/INFO]: Stopping the server
+[17:56:29] [Server thread/INFO]: Starting shutdown process...
+[17:56:29] [Server thread/INFO]: Closing storage...
+[17:56:29] [Server thread/INFO]: Goodbye!
+[17:56:29] [Server thread/INFO]: Stopping server
+[17:56:29] [Server thread/INFO]: Saving players
+[17:56:29] [Server thread/INFO]: Saving worlds
+[17:56:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:57:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:57:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:57:05] [Server thread/INFO]: Stopping IO worker...
+[17:57:05] [Server thread/INFO]: Stopped IO worker!

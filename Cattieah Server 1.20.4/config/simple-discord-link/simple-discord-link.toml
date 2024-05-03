@@ -59,11 +59,11 @@
 		#Prefer Webhook Messages over Standard Bot Messages
 		enabled = true
 		#The URL of the channel webhook to use for Chat Messages. Will be encrypted on first run
-		chatWebhook = "https://minotar.net/avatar/%uuid%?randomuuid=%randomUUID%"
+		chatWebhook = "PaUklgrg9Z9eBJHHD5K8vg3ywswtzW9bXbcl34yKIf12a696YrW46Ozygw0vaje4o4zDOU/fvQDoKohIqDvKmS2pX6mwozNlRwtp2JAxoLRlkndqGs4L4KWe0a/bWqEjA3xDzTqIz8OwWumLxY17eTpqiido2tC9wCVTHGoxYGz3hFbCVwCOxg=="
 		#The URL of the channel webhook to use for Server Messages. Will be encrypted on first run
-		eventsWebhook = "https://minotar.net/avatar/%uuid%?randomuuid=%randomUUID%"
+		eventsWebhook = "RLPbUDhhC5Cp42sfHq98MlUVQqpk5w4cELCWOthAuUno3m5Qqz6EuCu6W+aSCoG51T2mhvhx/by+HuwK+BpbqeVLxDPE828HeNZoYooMrTxidh1FphbIXCZ+Rjx0RIYmk4zd+sIAoSr053sNZT1pzTkI16uWwKgftyZXovuQELZXsuWZ9fQvZg=="
 		#The URL of the channel webhook to use for Console Messages. DOES NOT WORK FOR CONSOLE RELAY! Will be encrypted on first run
-		consoleWebhook = "https://minotar.net/avatar/%uuid%?randomuuid=%randomUUID%"
+		consoleWebhook = "Qn8tYsSqKyUcQPgvV7h+TxL6qVX9CMAiS09wYpI4l/Inm2k3Hg6D4fSTPVykUq4xa0wbIVLy67SyAR0O+SM0Hi15uPgsuXyFm58sSwc2+kgW4QQIHPNl29J9X82H9PM2ZzmMcN9L33S9fyEVZLAhh85aPSxw3s24E14w6VingaGQj0SNCt/XWQ=="
 
 #Configure which types of messages are delivered to Minecraft/Discord
 [chat]

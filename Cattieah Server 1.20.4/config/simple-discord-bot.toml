@@ -14,7 +14,7 @@
 	#Should only admins be allowed to whitelist players
 	onlyAdminsWhitelist = true
 	#If a role ID (or name) is defined here, it will be assigned to players when they are whitelisted
-	autoWhitelistRole = ""
+	autoWhitelistRole = "1236064277287276594"
 	#Modify user nickname when their accounts are linked
 	modifyNickname = false
 	#If a role ID (or name) is defined here, it will be assigned to players when their MC and Discord accounts are linked
@@ -33,7 +33,7 @@
 	#How quickly the bot status should update
 	activityUpdateInterval = 30
 	#If a role ID (or name) is defined here, only members with this role can use Staff Functions. Otherwise, it defaults back to admin/kick perms
-	staffRole = "1052367213811728394"
+	staffRole = "1235981719103082606"
 	#Should the bot use / commands. NOTE: THIS MAY TAKE UP TO 24 HOURS TO SHOW UP IN YOUR DISCORD
 	slashCommands = true
 	#The prefix to use for bot commands. Example: ~players. THIS HAS NO EFFECT WHEN USING SLASH COMMANDS
@@ -53,26 +53,26 @@
 #Config relating to the discord channels to use with the mod
 [channels]
 	#The ID of the channel to post in and relay messages from. This is still needed, even in webhook mode
-	chatChannelID = 678447645408231444
+	chatChannelID = 1235823962018156564
 	#If this ID is set, event messages will be posted in this channel instead of the chat channel
-	eventsChannelID = 678447645408231444
+	eventsChannelID = 1235823962018156564
 	#If this ID is set, console messages sent after the bot started will be relayed here, and you can execute minecraft commands here
-	consoleChannelID = 1132827202463998013
+	consoleChannelID = 1235856084221038643
 
 #Webhook Config
 [webhooks]
 	#Should webhook messages be used
 	enabled = true
 	#The URL of the channel webhook to use for Chat Messages
-	chatWebhook = "https://discord.com/api/webhooks/1132826061583949865/-8rb-0DyzxHnjN2W54avkY2qKKjkQ-9twPwG9P3FIroCCsGzyXHbsSiucIVu8LDVH-lQ"
+	chatWebhook = "https://discord.com/api/webhooks/1236080318470164480/n_dt-nUJl8socRnp-fk2dPyA7V5h8S2daNsaKoPdV6VlZiZU-kraJms5IjPnUCxQAuBm"
 	#The URL of the channel webhook to use for Server Messages
-	eventsWebhook = "https://discord.com/api/webhooks/1132826061583949865/-8rb-0DyzxHnjN2W54avkY2qKKjkQ-9twPwG9P3FIroCCsGzyXHbsSiucIVu8LDVH-lQ"
+	eventsWebhook = "https://discord.com/api/webhooks/1236080318470164480/n_dt-nUJl8socRnp-fk2dPyA7V5h8S2daNsaKoPdV6VlZiZU-kraJms5IjPnUCxQAuBm"
 	#The URL of the channel webhook to use for Console Messages
-	consoleWebhook = "https://discord.com/api/webhooks/1132826971022303313/GBoILTiDzThC1vJXzUH2VmZhmrXqiNxZIP5c-K1zfA8O28VZjiY-l2f2J2Gzx6WHkjrD"
+	consoleWebhook = "https://discord.com/api/webhooks/1236080820922482808/Jf0tb7pAgZaE3TwEuLIyRE7mJl9JfJ44k-xW7Knvknv6K0_JNQsRi-6biCUJjrG3ldMO"
 	#A DIRECT link to an image to use as the avatar for server messages. Also used for embeds
 	serverAvatar = "https://raw.githubusercontent.com/ErdbeerbaerLP/Discord-Chat-Integration/master/images/srv.png"
 	#The name to display for Server messages when using Webhooks
-	serverName = "The PlatForm SMP Server"
+	serverName = "The Cattieah SMP Server"
 
 #Chat Config
 [chat]

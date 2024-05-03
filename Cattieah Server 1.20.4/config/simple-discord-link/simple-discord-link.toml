@@ -11,7 +11,7 @@
 #Config specific to the discord bot
 [botConfig]
 	#The token of the Discord Bot to use. This will be encrypted on first load. See https://sdlink.fdd-docs.com/initial-setup/ to find this
-	botToken = "RufDFBZYVmDqJXKrKnMWOq3BXNHp01Lu6dnTKeiYhCgIW2O6idOMue4iHPAel67/z7PooQsFonOt5qjqJolcU+94+4BBa7XRheeNk3HD6eEZAv/YXCjgzQ=="
+	botToken = ""
 	#How often the Bot Status will update on Discord (in Seconds). Set to 0 to disable
 	statusUpdateInterval = 30
 
@@ -59,11 +59,11 @@
 		#Prefer Webhook Messages over Standard Bot Messages
 		enabled = true
 		#The URL of the channel webhook to use for Chat Messages. Will be encrypted on first run
-		chatWebhook = ""
+		chatWebhook = "https://minotar.net/avatar/%uuid%?randomuuid=%randomUUID%"
 		#The URL of the channel webhook to use for Server Messages. Will be encrypted on first run
-		eventsWebhook = ""
+		eventsWebhook = "https://minotar.net/avatar/%uuid%?randomuuid=%randomUUID%"
 		#The URL of the channel webhook to use for Console Messages. DOES NOT WORK FOR CONSOLE RELAY! Will be encrypted on first run
-		consoleWebhook = ""
+		consoleWebhook = "https://minotar.net/avatar/%uuid%?randomuuid=%randomUUID%"
 
 #Configure which types of messages are delivered to Minecraft/Discord
 [chat]

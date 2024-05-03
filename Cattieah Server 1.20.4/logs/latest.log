@@ -1,10 +1,12 @@
-[08:53:20] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.10
-[08:53:20] [ForkJoinPool-1-worker-4/WARN]: Mod icommon-bundle uses the version bundle which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'bundle'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[08:53:20] [main/INFO]: Loading 64 mods:
+[10:43:49] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.10
+[10:43:49] [ForkJoinPool-1-worker-2/WARN]: Mod icommon-bundle uses the version bundle which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'bundle'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[10:43:49] [main/INFO]: Loading 66 mods:
 	- audioplayer 1.20.4-1.8.9
 	   \-- admiral 0.4.4+1.20.4
-	- cardboard 1
-	   \-- net_md-5_specialsource 1.11.2
+	- carpet 1.4.128+v231205
+	- carpet-fixes 1.20-1.17.0
+	   |-- conditional-mixin 0.3.1
+	   \-- mixinextras 0.3.5
 	- cloth-config 13.0.121
 	   \-- cloth-basic-math 0.6.1
 	- coordfinder 1.20.4-1.0.1
@@ -68,8 +70,9 @@
 	- java 17
 	- lithium 0.12.1
 	- minecraft 1.20.4
+	- mr_no_trialchambers 1.2
 	- nochatreports 1.20.4-v2.6.0
-	- sdlink 3.0.1
+	- sdlink 2.2.4
 	- shulkerplus 1.0.7
 	- spark 1.10.58
 	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
@@ -80,311 +83,381 @@
 	- viewdistancefix 1.20.4-1.0.1
 	- voicechat 1.20.4-2.5.13
 	   \-- fabric-key-binding-api-v1 1.0.39+f4b7e42432
-[08:53:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/platformplayz/servers/Port%2025566%20servers/Cattieah's%20Servers/Season%201/Cattieah%20Server%201.20.4/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[08:53:20] [main/INFO]: Compatibility level set to JAVA_17
-[08:53:20] [main/INFO]: Please wait, Scanning plugins for events...
-[08:53:22] [main/INFO]: Found: 87 (Took: 1739ms)
-[08:53:22] [main/INFO]: Loading Libraries...
-[08:53:22] [main/INFO]: Debug: Loading library paper-api-1.19.4-550.jar
-[08:53:22] [main/INFO]: Debug: Loading library sqlite-jdbc-3.41.0.0.jar
-[08:53:22] [main/INFO]: Debug: Loading library mysql-connector-j-8.0.32.jar
-[08:53:22] [main/INFO]: Debug: Loading library commons-lang-2.6.jar
-[08:53:22] [main/INFO]: Debug: Loading library commons-collections4-4.4.jar
-[08:53:22] [main/INFO]: Debug: Loading library commons-collections-3.2.1.jar
-[08:53:22] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 0 override(s) found
-[08:53:22] [main/WARN]: Reference map 'shulkerplus-fabric-refmap.json' for shulkerplus-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[08:53:23] [main/INFO]: =======================================================
-[08:53:23] [main/INFO]:  iCommon - Isaiah's common library for mods.
-[08:53:23] [main/INFO]:  Copyright (c) 2018-2023 Isaiah. Running on MC 1.20.4
-[08:53:23] [main/INFO]: =======================================================
-[08:53:23] [main/INFO]: Applying mixin: MixinMinecraftServer...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinMinecraftServer...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinEntity...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinPlayer...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinBlockEntity...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinChestBlockEntity...
-[08:53:23] [main/INFO]: Lithium detected
-[08:53:23] [main/INFO]: Lithium detected
-[08:53:23] [main/INFO]: Lithium detected
-[08:53:23] [main/INFO]: Lithium detected
-[08:53:23] [main/INFO]: Lithium detected
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinScreenHandler...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinChunkGenerator...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinPersistentStateManager...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinPlayerManager...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinHeighttmap...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinLeavesBlock...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinCat...
-[08:53:23] [main/INFO]: Applying mixin: R1_20.MixinWorld_18...
-[08:53:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[08:53:26] [main/WARN]: @Final field field_9194:Ljava/util/Map; in bukkitfabric.mixins.json:MixinExplosion from mod cardboard should be final
-[08:53:29] [main/INFO]: 
-[08:53:29] [main/INFO]: Cardboard - CardboardPowered.org
-[08:53:29] [main/INFO]: 
-[08:53:29] [main/INFO]: Registered '7' iCommon events.
-[08:53:29] [main/INFO]: Cardboard mod Loaded.
-[08:53:29] [main/INFO]: iCommon Mod initialized.
-[08:53:29] [main/INFO]: Compatibility version 1
-[08:53:29] [main/WARN]: Method overwrite conflict for getPlayer in bukkitfabric.mixins.json:network.handler.MixinSPNH_PlayerCommandPreprocessEvent_1_19 from mod cardboard, previously written by org.cardboardpowered.mixin.network.MixinServerPlayNetworkHandler. Skipping method.
-[08:53:29] [main/INFO]: [voicechat] Compatibility version 18
-[08:53:29] [main/INFO]: [voicechat] Loading plugins
-[08:53:29] [main/INFO]: [voicechat] Loaded 2 plugin(s)
-[08:53:29] [main/INFO]: [voicechat] Initializing plugins
-[08:53:29] [main/INFO]: [voicechat] Initialized 2 plugin(s)
-[08:53:29] [main/INFO]: [voicechat] Registering events for 'audioplayer'
-[08:53:29] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
-[08:53:29] [main/INFO]: Registered simple-discord-link.toml successfully!
-[08:53:29] [main/INFO]: Encryption is not enabled for JSON DB
-[08:53:30] [main/INFO]: Login Successful!
-[08:53:30] [main/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[08:53:30] [main/WARN]: resource-pack-id missing, using default of 3f13623e-72f9-33c4-ba1f-1a002970f5a9
-[08:53:30] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08:53:30] [JDA MainWS-WriteThread/INFO]: Connected to WebSocket
-[08:53:30] [main/INFO]: Found non-pack entry './world/datapacks/armor statues v2.8.11 (MC 1.20-1.20.4).zip.old', ignoring
-[08:53:30] [main/INFO]: Found new data pack file/more mob heads v2.12.4 (MC 1.20-1.20.4).zip, loading it automatically
-[08:53:31] [JDA MainWS-ReadThread/INFO]: Finished Loading!
-[08:53:31] [pool-2-thread-1/INFO]: Successfully connected to discord
-[08:53:31] [pool-2-thread-1/INFO]: Discord Invite Link for Bot: https://discord.com/api/oauth2/authorize?client_id=1235851826838900777&permissions=2953276436&scope=bot%20applications.commands
-[08:53:32] [main/WARN]: Found loot table element validation problem in {loot_tables:minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/bat
-[08:53:32] [main/WARN]: Found loot table element validation problem in {loot_tables:minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[08:53:32] [main/INFO]: Loaded 7 recipes
-[08:53:32] [main/INFO]: Loaded 7 recipes
-[08:53:32] [main/ERROR]: Couldn't load tag minecraft:load as it is missing following references: hard_on_start:init (from file/hard-on-start-1.0.zip), hard_on_start:schedule (from file/hard-on-start-1.0.zip)
-[08:53:32] [main/INFO]: Loaded 1541 advancements
-[08:53:33] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.354 ms
-[08:53:33] [Server thread/INFO]: Starting background profiler...
-[08:53:33] [Server thread/INFO]: Setting IServer instance..
-[08:53:33] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[08:53:33] [Server thread/INFO]: Loading properties
-[08:53:33] [Server thread/INFO]: Default game type: SURVIVAL
-[08:53:33] [Server thread/INFO]: Generating keypair
-[08:53:33] [Server thread/INFO]: Starting Minecraft server on 10.0.0.66:25566
-[08:53:33] [Server thread/INFO]: Using epoll channel type
-[08:53:33] [Server thread/INFO]: DEB: 1837
-[08:53:33] [Server thread/INFO]: Registering modded blocks from mod 'minecraft'..
-[08:53:34] [Server thread/INFO]: This server is running Cardboard version git-52c4112 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: null on null)
-[08:53:34] [Server thread/INFO]: Debug logging is disabled
-[08:53:34] [Server thread/INFO]: Loading Bukkit plugins...
-[08:53:34] [Server thread/INFO]: [STDOUT]: REMAP UTIL DEBUG
-[08:53:34] [Server thread/INFO]: [STDOUT]: net/minecraft/class_2535
-[08:53:34] [Server thread/INFO]: Loading CoreProtect v22.2
-[08:53:34] [Server thread/INFO]: Loading ServerBackup v2.9.7
-[08:53:34] [Server thread/INFO]: Loading AdvancedBan v2.3.0
-[08:53:34] [Server thread/INFO]: Loading mcMMO v2.2.006
-[08:53:34] [Server thread/INFO]: 
-[08:53:35] [Server thread/INFO]: Preparing level "world"
-[08:53:35] [Server thread/INFO]: Setting IWorld for world "world"
-[08:53:35] [Server thread/INFO]: Setting IWorld for world "world_nether"
-[08:53:36] [Server thread/INFO]: Setting IWorld for world "world_the_end"
-[08:53:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:53:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:53:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:53:39] [Worker-Main-6/INFO]: Preparing spawn area: 2%
-[08:53:39] [Worker-Main-7/INFO]: Preparing spawn area: 85%
-[08:53:39] [Server thread/INFO]: Time elapsed: 3082 ms
-[08:53:39] [Server thread/INFO]: Preparing start region for world minecraft:the_nether
-[08:53:40] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[08:53:40] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[08:53:40] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[08:53:41] [Worker-Main-3/INFO]: Preparing spawn area: 83%
-[08:53:41] [Server thread/INFO]: Time elapsed: 1585 ms
-[08:53:41] [Server thread/INFO]: Preparing start region for world minecraft:the_end
-[08:53:42] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[08:53:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[08:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:53:42] [Server thread/INFO]: Time elapsed: 1426 ms
-[08:53:42] [Server thread/INFO]: Enabling CoreProtect v22.2
-[08:53:43] [Server thread/INFO]: [STDOUT]: NULL BLOCKS! minecraft:replaceable_plants
-[08:53:43] [Server thread/INFO]: §f§f§r[CoreProtect] CoreProtect has been successfully enabled!§f§f 
-[08:53:43] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[08:53:43] [Server thread/INFO]: --------------------
-[08:53:43] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[08:53:43] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[08:53:43] [Server thread/INFO]: --------------------
-[08:53:43] [Server thread/INFO]: Enabling ServerBackup v2.9.7
-[08:53:43] [Server thread/FATAL]: Plugin ServerBackup v2.9.7 has failed to register events for class de.seblii.serverbackup.ServerBackup because net/kyori/adventure/text/logger/slf4j/ComponentLogger does not exist.
-[08:53:43] [Server thread/INFO]: ServerBackup: Plugin enabled.
-[08:53:43] [Server thread/INFO]: ServerBackup: Searching for updates...
-[08:53:43] [Server thread/INFO]: Enabling AdvancedBan v2.3.0
-[08:53:45] [Server thread/INFO]: 
- 
-§8[]=====[§7Enabling AdvancedBan§8]=====[]
-§8| §cInformation:
-§8|   §cName: §7AdvancedBan
-§8|   §cDeveloper: §7Leoko
-§8|   §cVersion: §72.3.0
-§8|   §cStorage: §7HSQLDB (local)
-§8| §cSupport:
-§8|   §cGithub: §7https://github.com/DevLeoko/AdvancedBan/issues
-§8|   §cDiscord: §7https://discord.gg/ycDG6rS
-§8| §cTwitter: §7@LeokoGar
-§8| §cUpdate:
-§8|   §7You have the newest version
-§8[]================================[]§r
- 
-[08:53:45] [Server thread/INFO]: Enabling mcMMO v2.2.006
-[08:53:45] [Server thread/INFO]: [D] Initializing config: config.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: config.yml to defaults/config.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: config.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: config.yml
-[08:53:45] [Server thread/INFO]: [D] No errors found in config.yml!
-[08:53:45] [Server thread/INFO]: [D] Loading locale from plugins/mcMMO/locales/locale_override.properties
-[08:53:45] [Server thread/INFO]: [D] Initializing config: advanced.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: advanced.yml to defaults/advanced.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: advanced.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: advanced.yml
-[08:53:45] [Server thread/INFO]: [D] No errors found in advanced.yml!
-[08:53:45] [Server thread/INFO]: [D] Initializing config: party.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: party.yml to defaults/party.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: party.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: party.yml
-[08:53:45] [Server thread/INFO]: [D] No errors found in party.yml!
-[08:53:45] [Server thread/INFO]: [D] Initializing config: custom_item_support.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: custom_item_support.yml to defaults/custom_item_support.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: custom_item_support.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: custom_item_support.yml
-[08:53:45] [Server thread/INFO]: [D] No errors found in custom_item_support.yml!
-[08:53:45] [Server thread/INFO]: [D] Platform String: 1.20.4-R0.1-SNAPSHOT
-[08:53:45] [Server thread/INFO]: [D] Minecraft version determined to be - 1.20.4
-[08:53:45] [Server thread/INFO]: [D] Loading compatibility layers...
-[08:53:45] [Server thread/INFO]: [D] Finished loading compatibility layers.
-[08:53:45] [Server thread/INFO]: [D] Initializing config: persistent_data.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: persistent_data.yml to defaults/persistent_data.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: persistent_data.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: persistent_data.yml
-[08:53:45] [Server thread/INFO]: [D] No errors found in persistent_data.yml!
-[08:53:45] [Server thread/INFO]: [D] Initializing config: upgrades_overhaul.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: upgrades_overhaul.yml to defaults/upgrades_overhaul.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: upgrades_overhaul.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: upgrades_overhaul.yml
-[08:53:45] [Server thread/INFO]: [D] Needed upgrades: [ADD_FISHING, ADD_BLAST_MINING_COOLDOWN, ADD_SQL_INDEXES, ADD_MOB_HEALTHBARS, DROP_SQL_PARTY_NAMES, DROP_SPOUT, ADD_ALCHEMY, ADD_UUIDS, ADD_UUIDS_PARTY, ADD_SCOREBOARD_TIPS, DROP_NAME_UNIQUENESS, ADD_SKILL_TOTAL, ADD_UNIQUE_PLAYER_DATA, FIX_SPELLING_NETHERITE_SALVAGE, FIX_SPELLING_NETHERITE_REPAIR, SQL_CHARSET_UTF8MB4]
-[08:53:45] [Server thread/INFO]: [D] Initializing config: treasures.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: treasures.yml to defaults/treasures.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: treasures.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: treasures.yml
-[08:53:45] [Server thread/INFO]: [D] No errors found in treasures.yml!
-[08:53:45] [Server thread/INFO]: [D] Initializing config: fishing_treasures.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: fishing_treasures.yml to defaults/fishing_treasures.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: fishing_treasures.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: fishing_treasures.yml
-[08:53:45] [Server thread/INFO]: [D] Registering enchantments for Fishing Book...
-[08:53:45] [Server thread/INFO]: [D] No errors found in fishing_treasures.yml!
-[08:53:45] [Server thread/INFO]: [D] Loading mcMMO potions.yml File...
-[08:53:45] [Server thread/INFO]: [D] Loaded 220 Alchemy potions, skipped 0.
-[08:53:45] [Server thread/INFO]: [D] Initializing config: coreskills.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: coreskills.yml to defaults/coreskills.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: coreskills.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: coreskills.yml
-[08:53:45] [Server thread/INFO]: [D] No errors found in coreskills.yml!
-[08:53:45] [Server thread/INFO]: [D] Initializing config: sounds.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: sounds.yml to defaults/sounds.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: sounds.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: sounds.yml
-[08:53:45] [Server thread/INFO]: [D] No errors found in sounds.yml!
-[08:53:45] [Server thread/INFO]: [D] Initializing config: skillranks.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: skillranks.yml to defaults/skillranks.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: skillranks.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: skillranks.yml
-[08:53:45] [Server thread/INFO]: [D] No errors found in skillranks.yml!
-[08:53:45] [Server thread/INFO]: [D] Initializing config: repair.vanilla.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: repair.vanilla.yml to defaults/repair.vanilla.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: repair.vanilla.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: repair.vanilla.yml
-[08:53:45] [Server thread/INFO]: [D] Initializing config: salvage.vanilla.yml
-[08:53:45] [Server thread/INFO]: [D] Copying default config to disk: salvage.vanilla.yml to defaults/salvage.vanilla.yml
-[08:53:45] [Server thread/INFO]: [D] Loading config from disk: salvage.vanilla.yml
-[08:53:45] [Server thread/INFO]: [D] Config initialized: salvage.vanilla.yml
-[08:53:45] [Server thread/FATAL]: There was an error while enabling mcMMO!
-[08:53:45] [Server thread/INFO]: [STDERR]: java.lang.IllegalArgumentException: Invalid recipe type: class net.minecraft.class_8062
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_8786.toBukkitRecipe(class_8786.java:656)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.cardboardpowered.impl.inventory.recipe.RecipeIterator.next(RecipeIterator.java:32)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.cardboardpowered.impl.inventory.recipe.RecipeIterator.next(RecipeIterator.java:15)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at com.gmail.nossr50.util.skills.SkillUtils.getRepairAndSalvageQuantities(SkillUtils.java:330)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at com.gmail.nossr50.config.skills.salvage.SalvageConfig.loadKeys(SalvageConfig.java:146)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at com.gmail.nossr50.config.skills.salvage.SalvageConfig.<init>(SalvageConfig.java:28)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at com.gmail.nossr50.config.skills.salvage.SalvageConfigManager.<init>(SalvageConfigManager.java:20)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at com.gmail.nossr50.mcMMO.loadConfigFiles(mcMMO.java:600)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at com.gmail.nossr50.mcMMO.onEnable(mcMMO.java:213)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:542)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:571)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:502)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.handler$zzf000$cardboard$afterWorldLoad(MinecraftServer.java:2562)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:345)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3176.method_3823(class_3176.java:169)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[08:53:45] [Server thread/INFO]: Disabling mcMMO v2.2.006
-[08:53:45] [Server thread/INFO]: Server shutdown has been executed, saving and cleaning up data...
-[08:53:45] [Server thread/INFO]: [D] Completing 0 unfinished Alchemy brews.
-[08:53:45] [Server thread/INFO]: [STDERR]: java.lang.NullPointerException: Cannot invoke "com.gmail.nossr50.party.PartyManager.saveParties()" because the return value of "com.gmail.nossr50.mcMMO.getPartyManager()" is null
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at com.gmail.nossr50.mcMMO.onDisable(mcMMO.java:389)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:579)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at com.gmail.nossr50.mcMMO.onEnable(mcMMO.java:315)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:542)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:571)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:502)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.handler$zzf000$cardboard$afterWorldLoad(MinecraftServer.java:2562)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:345)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3176.method_3823(class_3176.java:169)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
-[08:53:45] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[08:53:45] [Server thread/INFO]: [D] Backing up your mcMMO Configuration... 
-[08:53:45] [Server thread/FATAL]: Cannot read /home/platformplayz/servers/Port 25566 servers/Cattieah's Servers/Season 1/Cattieah Server 1.20.4/plugins/mcMMO/experience.yml(File Permissions?)
-[08:53:45] [Server thread/INFO]: [D] Backup Completed.
-[08:53:45] [Server thread/INFO]: [D] Canceling all tasks...
-[08:53:45] [Server thread/INFO]: [D] Unregister all events...
-[08:53:45] [Server thread/FATAL]: Error occurred while disabling mcMMO v2.2.006 (Is it up to date?)
-java.lang.NullPointerException: Cannot invoke "com.gmail.nossr50.database.DatabaseManager.onDisable()" because "com.gmail.nossr50.mcMMO.databaseManager" is null
-	at com.gmail.nossr50.mcMMO.onDisable(mcMMO.java:419) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[Cardboard-1.20.4.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[Cardboard-1.20.4.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:579) ~[paper-api-1.19.4-550.jar:?]
-	at com.gmail.nossr50.mcMMO.onEnable(mcMMO.java:315) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[Cardboard-1.20.4.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) ~[Cardboard-1.20.4.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:542) ~[paper-api-1.19.4-550.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:571) ~[Cardboard-1.20.4.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:502) ~[Cardboard-1.20.4.jar:?]
-	at net.minecraft.server.MinecraftServer.handler$zzf000$cardboard$afterWorldLoad(MinecraftServer.java:2562) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:345) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3176.method_3823(class_3176.java:169) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[08:53:45] [Server thread/INFO]: Done (10.986s)! For help, type "help"
-[08:53:46] [Server thread/INFO]: Prometheus exporter server is now listening on port 25585
-[08:53:46] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:24454
-[08:53:46] [Paper Scheduler Thread - 3/INFO]: ServerBackup: No updates found. The server is running the latest version.
-[08:54:14] [pool-2-thread-7/INFO]: §e[Discord]§r Toast (Ginormous) (7'9"): Hi server
-[08:54:17] [pool-2-thread-3/INFO]: §e[Discord]§r Toast (Ginormous) (7'9"): how are you today
-[09:02:55] [User Authenticator #0/INFO]: UUID of player PlatFormPlayZ is 9dc294bf-e029-49be-adda-d00405ae1e54
-[09:02:56] [Server thread/INFO]: PlatFormPlayZ[/73.72.168.244:64387] logged in with entity id 293 at (-4.665506682766153, 71.0, 11.727339603407582)
-[09:02:56] [Server thread/INFO]: Using Fabric Permissions API
-[09:02:56] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[09:02:56] [Server thread/INFO]: PlatFormPlayZ joined the game
-[09:02:56] [Server thread/INFO]: [voicechat] Received secret request of PlatFormPlayZ (18)
-[09:02:56] [Server thread/INFO]: [voicechat] Sent secret to PlatFormPlayZ
-[09:02:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 9dc294bf-e029-49be-adda-d00405ae1e54
-[09:02:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 9dc294bf-e029-49be-adda-d00405ae1e54
-[09:02:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player PlatFormPlayZ (9dc294bf-e029-49be-adda-d00405ae1e54) successfully connected to voice chat
-[09:03:18] [Server thread/INFO]: BROADCAST DEBUG: this
-[09:03:18] [Server thread/INFO]: <PlatFormPlayZ> this
-[09:03:18] [Server thread/INFO]: Reg: 0
-[09:04:19] [Server thread/INFO]: PlatFormPlayZ issued server command: /datapack
-[09:04:22] [Server thread/INFO]: PlatFormPlayZ issued server command: /datapack list
-[09:04:30] [Server thread/INFO]: PlatFormPlayZ issued server command: /gamemode creative
-[09:04:30] [Server thread/INFO]: [PlatFormPlayZ: Set own game mode to Creative Mode]
-[09:05:04] [Server thread/INFO]: PlatFormPlayZ lost connection: Disconnected
-[09:05:04] [Server thread/INFO]: PlatFormPlayZ left the game
-[09:05:04] [Server thread/INFO]: [voicechat] Disconnecting client PlatFormPlayZ
+[10:43:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/platformplayz/servers/Port%2025566%20servers/Cattieah's%20Servers/Season%201/Cattieah%20Server%201.20.4%20No%20Cardboard/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[10:43:49] [main/INFO]: Compatibility level set to JAVA_17
+[10:43:50] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 0 override(s) found
+[10:43:50] [main/WARN]: Reference map 'shulkerplus-fabric-refmap.json' for shulkerplus-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:43:50] [main/INFO]: =======================================================
+[10:43:50] [main/INFO]:  iCommon - Isaiah's common library for mods.
+[10:43:50] [main/INFO]:  Copyright (c) 2018-2023 Isaiah. Running on MC 1.20.4
+[10:43:50] [main/INFO]: =======================================================
+[10:43:50] [main/INFO]: Applying mixin: MixinMinecraftServer...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinMinecraftServer...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinEntity...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinPlayer...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinBlockEntity...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinChestBlockEntity...
+[10:43:50] [main/INFO]: Lithium detected
+[10:43:50] [main/INFO]: Lithium detected
+[10:43:50] [main/INFO]: Lithium detected
+[10:43:50] [main/INFO]: Lithium detected
+[10:43:50] [main/INFO]: Lithium detected
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinScreenHandler...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinChunkGenerator...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinPersistentStateManager...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinPlayerManager...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinHeighttmap...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinLeavesBlock...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinCat...
+[10:43:50] [main/INFO]: Applying mixin: R1_20.MixinWorld_18...
+[10:43:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[10:43:51] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
+[10:43:56] [main/INFO]: iCommon Mod initialized.
+[10:43:56] [main/INFO]: Compatibility version 1
+[10:43:56] [main/INFO]: [voicechat] Compatibility version 18
+[10:43:56] [main/INFO]: [voicechat] Loading plugins
+[10:43:56] [main/INFO]: [voicechat] Loaded 2 plugin(s)
+[10:43:56] [main/INFO]: [voicechat] Initializing plugins
+[10:43:56] [main/INFO]: [voicechat] Initialized 2 plugin(s)
+[10:43:56] [main/INFO]: [voicechat] Registering events for 'audioplayer'
+[10:43:56] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
+[10:43:56] [main/INFO]: Registered simple-discord-bot.toml successfully!
+[10:43:56] [main/INFO]: Using Webhook for Chat Messages
+[10:43:56] [main/INFO]: Using Webhook for Event Messages
+[10:43:56] [main/INFO]: Using Webhook for Console Messages
+[10:43:57] [main/INFO]: Login Successful!
+[10:43:57] [main/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[10:43:57] [main/WARN]: resource-pack-id missing, using default of 3f13623e-72f9-33c4-ba1f-1a002970f5a9
+[10:43:57] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:43:57] [JDA MainWS-WriteThread/INFO]: Connected to WebSocket
+[10:43:58] [JDA MainWS-ReadThread/INFO]: Finished Loading!
+[10:43:58] [pool-2-thread-7/INFO]: Successfully connected to discord
+[10:43:58] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
+[10:43:59] [main/WARN]: Found loot table element validation problem in {loot_tables:minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/bat
+[10:43:59] [main/WARN]: Found loot table element validation problem in {loot_tables:minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[10:43:59] [main/INFO]: Loaded 7 recipes
+[10:43:59] [main/ERROR]: Couldn't load tag minecraft:load as it is missing following references: hard_on_start:init (from file/hard-on-start-1.0.zip), hard_on_start:schedule (from file/hard-on-start-1.0.zip)
+[10:43:59] [main/INFO]: Loaded 1668 advancements
+[10:44:00] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.436 ms
+[10:44:00] [Server thread/INFO]: Starting background profiler...
+[10:44:00] [Server thread/INFO]: Setting IServer instance..
+[10:44:00] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[10:44:00] [Server thread/INFO]: Loading properties
+[10:44:00] [Server thread/INFO]: Default game type: SURVIVAL
+[10:44:00] [Server thread/INFO]: Generating keypair
+[10:44:00] [Server thread/INFO]: Starting Minecraft server on 10.0.0.66:25566
+[10:44:00] [Server thread/INFO]: Using epoll channel type
+[10:44:00] [Server thread/INFO]: Preparing level "world"
+[10:44:00] [Server thread/INFO]: Setting IWorld for world "world"
+[10:44:01] [Server thread/INFO]: Setting IWorld for world "world_nether"
+[10:44:02] [Server thread/INFO]: Setting IWorld for world "world_the_end"
+[10:44:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:44:02] [pool-2-thread-8/INFO]: Discord Invite Link for Bot: https://discord.com/api/oauth2/authorize?client_id=818551968519290931&permissions=3154463760&scope=bot%20applications.commands
+[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:44:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:44:04] [Worker-Main-6/INFO]: Preparing spawn area: 46%
+[10:44:05] [Server thread/INFO]: Time elapsed: 2792 ms
+[10:44:05] [Server thread/INFO]: Done (4.295s)! For help, type "help"
+[10:44:05] [Server thread/INFO]: Whitelisting enabled and ready
+[10:44:05] [Server thread/INFO]: Prometheus exporter server is now listening on port 25585
+[10:44:05] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:24454
+[10:44:09] [User Authenticator #1/INFO]: UUID of player PlatFormPlayZ is 9dc294bf-e029-49be-adda-d00405ae1e54
+[10:44:09] [Server thread/INFO]: PlatFormPlayZ[/73.72.168.244:52365] logged in with entity id 237 at (12.732479579092294, 64.0, 118.61026798181159)
+[10:44:09] [Server thread/INFO]: Using Fabric Permissions API
+[10:44:09] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[10:44:09] [Server thread/INFO]: PlatFormPlayZ joined the game
+[10:44:09] [Server thread/INFO]: [voicechat] Received secret request of PlatFormPlayZ (18)
+[10:44:09] [Server thread/INFO]: [voicechat] Sent secret to PlatFormPlayZ
+[10:44:09] [Server thread/INFO]: Player PlatFormPlayZ joined with a matching carpet client
+[10:44:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 9dc294bf-e029-49be-adda-d00405ae1e54
+[10:44:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 9dc294bf-e029-49be-adda-d00405ae1e54
+[10:44:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player PlatFormPlayZ (9dc294bf-e029-49be-adda-d00405ae1e54) successfully connected to voice chat
+[10:44:13] [Server thread/ERROR]: ##################################
+[10:44:13] [Server thread/ERROR]: Failed to notify event listener!
+[10:44:13] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterServerChatEvent
+[10:44:13] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
+[10:44:13] [Server thread/ERROR]: Listener Method Name In Parent Class: onServerChatEvent
+[10:44:13] [Server thread/ERROR]: ##################################
+[10:44:13] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.handler$bhe000$craterlib$injectChatEvent(class_3244.java:5417)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44155(class_3244.java)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45064(class_3244.java:1267)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_7619.method_44903(class_7619.java:30)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[10:44:13] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	... 21 more
+[10:44:13] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:166)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:155)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	... 26 more
+[10:44:13] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[10:44:13] [Server thread/INFO]: [STDERR]: 	... 31 more
+[10:44:13] [Server thread/INFO]: <PlatFormPlayZ> W
+[10:44:18] [Server thread/ERROR]: ##################################
+[10:44:18] [Server thread/ERROR]: Failed to notify event listener!
+[10:44:18] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterServerChatEvent
+[10:44:18] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
+[10:44:18] [Server thread/ERROR]: Listener Method Name In Parent Class: onServerChatEvent
+[10:44:18] [Server thread/ERROR]: ##################################
+[10:44:18] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.handler$bhe000$craterlib$injectChatEvent(class_3244.java:5417)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44155(class_3244.java)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45064(class_3244.java:1267)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_7619.method_44903(class_7619.java:30)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[10:44:18] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	... 21 more
+[10:44:18] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:166)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:155)
+[10:44:18] [Server thread/INFO]: [STDERR]: 	... 26 more
+[10:44:18] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
+[10:44:18] [Server thread/INFO]: [STDERR]: 	... 31 more
+[10:44:18] [Server thread/INFO]: <PlatFormPlayZ> chat fucking work
+[10:44:22] [pool-2-thread-3/INFO]: §e[Discord]§r Lord Plat: gd
+[10:45:01] [Server thread/ERROR]: ##################################
+[10:45:01] [Server thread/ERROR]: Failed to notify event listener!
+[10:45:01] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterServerChatEvent
+[10:45:01] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
+[10:45:01] [Server thread/ERROR]: Listener Method Name In Parent Class: onServerChatEvent
+[10:45:01] [Server thread/ERROR]: ##################################
+[10:45:01] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.handler$bhe000$craterlib$injectChatEvent(class_3244.java:5417)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44155(class_3244.java)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45064(class_3244.java:1267)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_7619.method_44903(class_7619.java:30)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[10:45:01] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	... 21 more
+[10:45:01] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:166)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.onServerChatEvent(ServerEvents.java:155)
+[10:45:01] [Server thread/INFO]: [STDERR]: 	... 26 more
+[10:45:01] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
+[10:45:01] [Server thread/INFO]: [STDERR]: 	... 31 more
+[10:45:01] [Server thread/INFO]: <PlatFormPlayZ> test
+[10:45:12] [User Authenticator #2/INFO]: UUID of player AnonymousToast is 1d3847f7-05f3-43f7-8419-86057f3534e2
+[10:45:16] [Server thread/INFO]: AnonymousToast[/98.179.22.23:56724] logged in with entity id 366 at (17.5, 67.0, 103.5)
+[10:45:16] [Server thread/INFO]: AnonymousToast joined the game
+[10:45:44] [Server thread/ERROR]: ##################################
+[10:45:44] [Server thread/ERROR]: Failed to notify event listener!
+[10:45:44] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterCommandEvent
+[10:45:44] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
+[10:45:44] [Server thread/ERROR]: Listener Method Name In Parent Class: commandEvent
+[10:45:44] [Server thread/ERROR]: ##################################
+[10:45:44] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.handler$bha000$craterlib$injectCommandEvent(class_2170.java:1580)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.method_9249(class_2170.java:304)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45010(class_3244.java:1305)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44356(class_3244.java:1285)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5386(class_1255.java:67)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[10:45:44] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	... 21 more
+[10:45:44] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.commandEvent(ServerEvents.java:205)
+[10:45:44] [Server thread/INFO]: [STDERR]: 	... 26 more
+[10:45:44] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
+[10:45:44] [Server thread/INFO]: [STDERR]: 	... 30 more
+[10:45:48] [Server thread/ERROR]: ##################################
+[10:45:48] [Server thread/ERROR]: Failed to notify event listener!
+[10:45:48] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterCommandEvent
+[10:45:48] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
+[10:45:48] [Server thread/ERROR]: Listener Method Name In Parent Class: commandEvent
+[10:45:48] [Server thread/ERROR]: ##################################
+[10:45:48] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.handler$bha000$craterlib$injectCommandEvent(class_2170.java:1580)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.method_9249(class_2170.java:304)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_45010(class_3244.java:1305)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3244.method_44356(class_3244.java:1285)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5386(class_1255.java:67)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:156)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:797)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:165)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:779)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:773)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:758)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:687)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[10:45:48] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	... 21 more
+[10:45:48] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.commandEvent(ServerEvents.java:205)
+[10:45:48] [Server thread/INFO]: [STDERR]: 	... 26 more
+[10:45:48] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
+[10:45:48] [Server thread/INFO]: [STDERR]: 	... 30 more
+[10:45:48] [Server thread/INFO]: [AnonymousToast: Set own game mode to Creative Mode]
+[10:46:37] [Server thread/INFO]: AnonymousToast lost connection: Disconnected
+[10:46:37] [Server thread/INFO]: AnonymousToast left the game
+[10:46:37] [Server thread/INFO]: [voicechat] Disconnecting client AnonymousToast
+[10:46:41] [User Authenticator #3/INFO]: UUID of player AnonymousToast is 1d3847f7-05f3-43f7-8419-86057f3534e2
+[10:46:44] [Server thread/INFO]: AnonymousToast[/98.179.22.23:56769] logged in with entity id 672 at (14.986808627589005, 60.0, 101.2028408373395)
+[10:46:44] [Server thread/INFO]: AnonymousToast joined the game
+[10:47:09] [Server thread/INFO]: PlatFormPlayZ lost connection: Disconnected
+[10:47:09] [Server thread/INFO]: PlatFormPlayZ left the game
+[10:47:09] [Server thread/INFO]: [voicechat] Disconnecting client PlatFormPlayZ
+[10:48:46] [Server thread/ERROR]: ##################################
+[10:48:46] [Server thread/ERROR]: Failed to notify event listener!
+[10:48:46] [Server thread/ERROR]: Event Type: com.hypherionmc.craterlib.api.event.server.CraterCommandEvent
+[10:48:46] [Server thread/ERROR]: Listener Parent Class Name: me.hypherionmc.sdlink.server.ServerEvents
+[10:48:46] [Server thread/ERROR]: Listener Method Name In Parent Class: commandEvent
+[10:48:46] [Server thread/ERROR]: ##################################
+[10:48:46] [Server thread/INFO]: [STDERR]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:44)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus$ListenerContainer.notifyListener(CraterEventBus.java:127)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.postEvent(CraterEventBus.java:25)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.handler$bha000$craterlib$injectCommandEvent(class_2170.java:1580)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.method_9249(class_2170.java:304)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_2170.method_44252(class_2170.java:298)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3176.method_13941(class_3176.java:299)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3176.method_3813(class_3176.java:284)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:845)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:683)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[10:48:46] [Server thread/INFO]: [STDERR]: Caused by: java.lang.reflect.InvocationTargetException
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at com.hypherionmc.craterlib.core.event.CraterEventBus.lambda$registerListenerMethods$1(CraterEventBus.java:42)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	... 11 more
+[10:48:46] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/class_2585
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.getTexts(DiscordSerializer.java:245)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:179)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.mcdiscordformatter.discord.DiscordSerializer.serialize(DiscordSerializer.java:152)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	at me.hypherionmc.sdlink.server.ServerEvents.commandEvent(ServerEvents.java:205)
+[10:48:46] [Server thread/INFO]: [STDERR]: 	... 16 more
+[10:48:46] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassNotFoundException: net.minecraft.class_2585
+[10:48:46] [Server thread/INFO]: [STDERR]: 	... 20 more
+[10:48:46] [Server thread/INFO]: Stopping the server
+[10:48:46] [Server thread/INFO]: Stopping server
+[10:48:46] [Server thread/INFO]: Saving players
+[10:48:47] [Server thread/INFO]: AnonymousToast lost connection: Server closed
+[10:48:47] [Server thread/INFO]: AnonymousToast left the game
+[10:48:47] [Server thread/INFO]: Saving worlds
+[10:48:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld

@@ -4,5 +4,11 @@
     "name": "PlatFormPlayZ",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1d3847f7-05f3-43f7-8419-86057f3534e2",
+    "name": "AnonymousToast",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

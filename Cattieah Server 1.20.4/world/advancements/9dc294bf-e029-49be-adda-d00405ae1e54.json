@@ -1,0 +1,135 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-05-03 03:20:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2024-05-03 03:20:55 -0500"
+    },
+    "done": false
+  },
+  "vanillatweaks:spectator_night_vision": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "custom_roleplay_data:custom_roleplay_data": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:durability_ping": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:classic_fishing_loot": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:wandering_trades": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:fast_leaf_decay": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:multiplayer_sleep": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:unlock_all_recipes": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:anti_enderman_grief": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:double_shulker_shells": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:nether_portal_coords": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:player_head_drops": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:spectator_conduit_power": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:coordinates_hud": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:afk_display": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:track_stats": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2024-05-03 03:56:31 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:more_mob_heads": {
+    "criteria": {
+      "tick": "2024-05-03 09:02:56 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

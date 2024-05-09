@@ -44,9 +44,9 @@
 			playersRedirect = true
 			playerLightning = 1
 			chorusFruitTeleport = 1
-			netherPortalsPlayers = 1
-			netherPortalsMobs = 1
-			netherPortalsOther = 1
+			netherPortalsPlayers = 0
+			netherPortalsMobs = 0
+			netherPortalsOther = 0
 			itemUse = 1
 			neighborChunksItemUse = true
 			dispenserBarrier = true

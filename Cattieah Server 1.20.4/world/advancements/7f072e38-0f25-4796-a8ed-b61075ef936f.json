@@ -7544,6 +7544,7 @@
       "minecraft:forest": "2024-05-04 00:47:17 -0500",
       "minecraft:sparse_jungle": "2024-05-04 14:36:24 -0500",
       "minecraft:river": "2024-05-04 00:49:50 -0500",
+      "minecraft:lush_caves": "2024-05-05 22:38:08 -0500",
       "minecraft:dripstone_caves": "2024-05-04 01:05:22 -0500",
       "minecraft:old_growth_birch_forest": "2024-05-04 01:04:13 -0500",
       "minecraft:eroded_badlands": "2024-05-04 01:28:19 -0500",
@@ -8948,11 +8949,13 @@
       "bread": "2024-05-04 01:47:39 -0500",
       "golden_apple": "2024-05-04 15:23:36 -0500",
       "cooked_rabbit": "2024-05-04 16:15:31 -0500",
+      "suspicious_stew": "2024-05-05 21:42:39 -0500",
       "cooked_mutton": "2024-05-04 00:58:19 -0500",
       "cooked_cod": "2024-05-05 16:17:34 -0500",
       "cooked_beef": "2024-05-04 14:46:15 -0500",
       "porkchop": "2024-05-04 14:39:43 -0500",
-      "pumpkin_pie": "2024-05-04 17:55:09 -0500"
+      "pumpkin_pie": "2024-05-04 17:55:09 -0500",
+      "golden_carrot": "2024-05-05 21:49:38 -0500"
     },
     "done": false
   },
@@ -8977,19 +8980,30 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-05-04 23:49:18 -0500",
+      "minecraft:blaze": "2024-05-06 20:14:21 -0500",
       "minecraft:skeleton": "2024-05-04 01:34:44 -0500",
-      "minecraft:phantom": "2024-05-05 16:27:20 -0500",
-      "minecraft:husk": "2024-05-05 17:36:37 -0500",
+      "minecraft:ravager": "2024-05-07 14:21:14 -0500",
+      "minecraft:ghast": "2024-05-06 20:07:11 -0500",
       "minecraft:hoglin": "2024-05-05 01:48:08 -0500",
+      "minecraft:vindicator": "2024-05-07 14:19:07 -0500",
+      "minecraft:magma_cube": "2024-05-07 01:17:21 -0500",
+      "minecraft:spider": "2024-05-04 01:40:05 -0500",
+      "minecraft:piglin_brute": "2024-05-07 01:50:55 -0500",
+      "minecraft:creeper": "2024-05-05 02:09:07 -0500",
+      "minecraft:slime": "2024-05-05 01:34:43 -0500",
+      "minecraft:evoker": "2024-05-07 14:24:46 -0500",
+      "minecraft:phantom": "2024-05-05 16:27:20 -0500",
+      "minecraft:witch": "2024-05-07 14:22:55 -0500",
+      "minecraft:wither_skeleton": "2024-05-06 20:12:44 -0500",
+      "minecraft:husk": "2024-05-05 17:36:37 -0500",
       "minecraft:cave_spider": "2024-05-04 01:52:25 -0500",
       "minecraft:piglin": "2024-05-05 16:03:44 -0500",
       "minecraft:enderman": "2024-05-05 01:48:37 -0500",
       "minecraft:endermite": "2024-05-05 15:37:26 -0500",
-      "minecraft:spider": "2024-05-04 01:40:05 -0500",
+      "minecraft:vex": "2024-05-07 14:24:57 -0500",
       "minecraft:zombie": "2024-05-04 01:06:26 -0500",
-      "minecraft:creeper": "2024-05-05 02:09:07 -0500",
-      "minecraft:zombie_villager": "2024-05-05 01:28:10 -0500",
-      "minecraft:slime": "2024-05-05 01:34:43 -0500"
+      "minecraft:drowned": "2024-05-06 14:19:01 -0500",
+      "minecraft:zombie_villager": "2024-05-05 01:28:10 -0500"
     },
     "done": false
   },
@@ -9007,6 +9021,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2024-05-06 00:52:36 -0500",
       "minecraft:panda": "2024-05-04 01:15:02 -0500",
       "minecraft:sheep": "2024-05-04 16:14:17 -0500"
     },
@@ -9143,9 +9158,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-05-05 01:46:57 -0500",
       "minecraft:soul_sand_valley": "2024-05-05 01:45:45 -0500",
-      "minecraft:nether_wastes": "2024-05-05 15:34:12 -0500"
+      "minecraft:nether_wastes": "2024-05-05 15:34:12 -0500",
+      "minecraft:basalt_deltas": "2024-05-06 20:13:18 -0500",
+      "minecraft:warped_forest": "2024-05-06 23:44:51 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:story/enter_the_nether": {
     "criteria": {
@@ -9168,6 +9185,102 @@
   "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
       "crying_obsidian": "2024-05-05 16:03:33 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:dragon_drops": {
+    "criteria": {
+      "tick": "2024-05-05 20:56:05 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:larger_phantoms": {
+    "criteria": {
+      "tick": "2024-05-05 20:56:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-05-05 21:44:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-05-06 20:07:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-05-06 20:10:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-05-06 20:14:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-05-06 23:49:16 -0500"
+    },
+    "done": true
+  },
+  "tdp.500:entry": {
+    "criteria": {
+      "entry": "2024-05-07 01:12:44 -0500"
+    },
+    "done": true
+  },
+  "tdp.main:source": {
+    "criteria": {
+      "source": "2024-05-07 01:12:44 -0500"
+    },
+    "done": true
+  },
+  "tdp.500:entry_feature": {
+    "criteria": {
+      "entry": "2024-05-07 01:12:44 -0500"
+    },
+    "done": true
+  },
+  "tdp.500.2:entry_feature": {
+    "criteria": {
+      "entry": "2024-05-07 01:12:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-05-07 01:50:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-05-07 01:50:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-05-07 01:51:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-05-07 14:16:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-05-07 14:30:10 -0500"
     },
     "done": true
   },

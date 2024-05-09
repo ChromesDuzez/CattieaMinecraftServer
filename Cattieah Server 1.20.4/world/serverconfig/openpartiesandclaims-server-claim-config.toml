@@ -342,7 +342,7 @@
 						#1) Party - players or entities owned by players in the same party as you.
 						#2) Allies - players or entities owned by players in parties that are allied by yours.
 						#3) Every - all players/entities.
-						Foxes = 0
+						Foxes = 3
 
 				[playerConfig.claims.protection.exceptionGroups.block]
 
@@ -358,7 +358,7 @@
 						#1) Party - players or entities owned by players in the same party as you.
 						#2) Allies - players or entities owned by players in parties that are allied by yours.
 						#3) Every - all players/entities.
-						Doors = 0
+						Doors = 3
 						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: minecraft:chest, minecraft:trapped_chest, #forge:chests/wooden.
 						#
 						#1) Party - players or entities owned by players in the same party as you.
@@ -412,7 +412,7 @@
 						#1) Party - players or entities owned by players in the same party as you.
 						#2) Allies - players or entities owned by players in parties that are allied by yours.
 						#3) Every - all players/entities.
-						Beds = 0
+						Beds = 3
 						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: minecraft:beacon.
 						#
 						#1) Party - players or entities owned by players in the same party as you.

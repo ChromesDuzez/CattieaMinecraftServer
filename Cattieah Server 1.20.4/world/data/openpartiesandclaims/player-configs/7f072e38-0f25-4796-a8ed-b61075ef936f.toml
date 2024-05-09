@@ -44,9 +44,9 @@
 			playersRedirect = true
 			playerLightning = 1
 			chorusFruitTeleport = 1
-			netherPortalsPlayers = 1
-			netherPortalsMobs = 1
-			netherPortalsOther = 1
+			netherPortalsPlayers = 0
+			netherPortalsMobs = 0
+			netherPortalsOther = 0
 			itemUse = 1
 			neighborChunksItemUse = true
 			dispenserBarrier = true
@@ -77,7 +77,7 @@
 						Ender_Pearls = 0
 
 					[playerConfig.claims.protection.exceptionGroups.entity.interact]
-						Traders = 0
+						Traders = 3
 						Armor_Stands = 0
 
 					[playerConfig.claims.protection.exceptionGroups.entity.handInteract]
@@ -87,13 +87,13 @@
 						Livestock = 0
 
 					[playerConfig.claims.protection.exceptionGroups.entity.blockAccess]
-						Villagers = 0
+						Villagers = 3
 
 					[playerConfig.claims.protection.exceptionGroups.entity.entityAccess]
 						Zombies = 0
 
 					[playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess]
-						Villagers = 0
+						Villagers = 3
 						Piglins = 0
 						Foxes = 0
 
@@ -110,7 +110,7 @@
 						Hoppers = 0
 						Dispenser-like = 0
 						Anvils = 0
-						Beds = 0
+						Beds = 3
 						Beacons = 0
 						Enchanting_Tables = 0
 

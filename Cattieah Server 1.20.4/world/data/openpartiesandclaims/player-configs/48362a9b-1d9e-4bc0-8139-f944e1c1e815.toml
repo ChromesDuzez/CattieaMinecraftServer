@@ -44,9 +44,9 @@
 			playersRedirect = true
 			playerLightning = 1
 			chorusFruitTeleport = 1
-			netherPortalsPlayers = 1
-			netherPortalsMobs = 1
-			netherPortalsOther = 1
+			netherPortalsPlayers = 0
+			netherPortalsMobs = 0
+			netherPortalsOther = 0
 			itemUse = 1
 			neighborChunksItemUse = true
 			dispenserBarrier = true
@@ -101,7 +101,7 @@
 
 					[playerConfig.claims.protection.exceptionGroups.block.interact]
 						Controls = 0
-						Doors = 0
+						Doors = 3
 						Chests = 0
 						Barrels = 0
 						Ender_Chests = 0
@@ -110,7 +110,7 @@
 						Hoppers = 0
 						Dispenser-like = 0
 						Anvils = 0
-						Beds = 0
+						Beds = 3
 						Beacons = 0
 						Enchanting_Tables = 0
 

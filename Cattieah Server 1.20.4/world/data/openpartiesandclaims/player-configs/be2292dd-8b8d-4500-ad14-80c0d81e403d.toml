@@ -6,7 +6,7 @@
 		usedServerSub = "main"
 		name = ""
 		color = 0
-		protectClaimedChunks = true
+		protectClaimedChunks = false
 		bonusChunkClaims = 0
 		bonusChunkForceloads = 0
 

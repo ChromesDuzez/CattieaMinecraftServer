@@ -102,11 +102,11 @@
 	#Should Messages from the /say command be posted
 	sendSayCommand = true
 	#Should commands be posted to discord
-	broadcastCommands = true
+	broadcastCommands = false
 	#Commands that should not be broadcast to discord
 	ignoredCommands = ["particle", "login", "execute"]
 	#Allow mentioning discord roles, users and channels from Minecraft Chat
-	allowMentionsFromChat = false
+	allowMentionsFromChat = true
 
 #Change the format in which messages are displayed
 [messageFormatting]
@@ -220,19 +220,19 @@
 #Manage access to your server, similar to whitelisting
 [accessControl]
 	#Enable Access Control
-	enabled = false
+	enabled = true
 	#Does the player need to be a member of your discord to join
-	requireDiscordMembership = false
+	requireDiscordMembership = true
 	#Can players verify multiple Minecraft Accounts
-	allowMultipleAccounts = false
+	allowMultipleAccounts = true
 	#Optional: The player requires any of these roles to be able to join your server
-	requiredRoles = []
+	requiredRoles = ["1223334446221103114"]
 	#Optional: Players with these roles will never be allowed access to your server
 	deniedRoles = []
 	#Optional: Role name or ID to assign to verified player accounts
-	verifiedRole = ""
+	verifiedRole = "1236064123180023899"
 	#Should players with verified accounts, be banned from Minecraft if they get banned on discord
-	banPlayerOnDiscordBan = false
+	banPlayerOnDiscordBan = true
 	#Should members with verified accounts, be banned from discord when they are banned on Minecraft
 	banMemberOnMinecraftBan = false
 
@@ -250,7 +250,7 @@
 #Execute Minecraft commands in Discord
 [minecraftCommands]
 	#Allow executing Minecraft commands from Discord
-	enabled = false
+	enabled = true
 	#Command Prefix. For example ?weather clear
 	prefix = "?"
 	#List of command permissions

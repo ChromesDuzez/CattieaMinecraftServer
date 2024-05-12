@@ -10,7 +10,7 @@ This is a vanilla-eque Minecraft 1.20.4 Server that has mods as optional tools t
 - VoxelMap or Xaero's Minimap depending on preference (Xaero's Minimap has integration with simple claims showing which chunks are claimed)
 - The status mod to let people know whether you wish to be disturbed or not and if you are streaming/recording and if you wish people to sleep or not during night
 - Armor Statues Datapack to let you transform you building to a new level and make them feel alive
-- The server's [Resource Pack](https://github.com/ChromesDuzez/CattieahJediTempleMCserver/blob/main/VanillaTweaks_ServerResourcePack1.20.x.zip](https://github.com/ChromesDuzez/CattieaMinecraftServerResourcePack) (aka Texture Pack) from Vanilla Tweaks
+- The server's [Resource Pack](https://github.com/ChromesDuzez/CattieaMinecraftServerResourcePack) (aka Texture Pack) from Vanilla Tweaks
 
 ## Server Mod List
 The full server side mod list with the end of the list where the indented mods are being just API's and Libraries

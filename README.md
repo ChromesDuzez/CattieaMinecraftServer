@@ -1,4 +1,4 @@
-# The Cattieah Jedi Temple Minecraft Server
+# The Cattiea Club Minecraft Server
 
 This is a vanilla-eque Minecraft 1.20.4 Server that has mods as optional tools to help further community engagement and better quality of life changes while playing.
 
